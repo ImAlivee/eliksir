@@ -12,4 +12,3 @@
 <section class="">Total du panier</section>
 <button type="submit">poursuivre les achats</button>
 <button type="submit">commander</button>
-   

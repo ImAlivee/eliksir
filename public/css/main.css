@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 @font-face {
@@ -109,12 +110,6 @@ footer {
 .button span{
     font-size:18px;
     font-weight: 700;
-}
-* {
-	box-sizing:border-box;
-	margin: 0;
-	padding: 0;
-    list-style: none;
 }
   
   nav ul {
