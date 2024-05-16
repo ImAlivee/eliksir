@@ -110,3 +110,35 @@ footer {
     font-size:18px;
     font-weight: 700;
 }
+* {
+	box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+    list-style: none;
+}
+  
+  nav ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: white;
+  }
+  
+  #intro {
+      text-align: center;
+      margin-top: 5%;
+      margin-bottom: 5%;
+  }
+  
+  h2 {
+      color: #c88a36;
+  }
+  
+  nav {
+      background-color: #1f1a03;
+      padding: 3%;
+  }
+  
+  body {
+      background-color: #ddd8bd;
+  }
