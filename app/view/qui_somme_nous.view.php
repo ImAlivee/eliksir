@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qui Sommes Nous ?</title>
-    <link rel="icon" type="image/svg+xml" href="/public/images/favicon/favicon.svg">
-</head>
-
-<body>
     <h1 class="titre">Notre Equipe</h1>
     <img src="" alt="">
     <p class="paragraphe">Bienvenue dans les coulisses d’Eliksir, où l’on peut voir les membres de l’entreprise.
@@ -80,6 +69,3 @@
         cachées.
         Ainsi, grâce à l'Eliksir et aux potions créées par Günther, chacun pouvait désormais puiser dans la sagesse et
         la force des Vikings, révélant ainsi le véritable potentiel de leur héritage nordique.</p>
-</body>
-
-</html>
