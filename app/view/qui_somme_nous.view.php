@@ -7,7 +7,8 @@
     <link rel="icon" type="image/svg+xml" href="/public/images/favicon/favicon.svg">
 </head>
 <body>
-    
+    <h1>Notre Equipe</h1>
+    <img src="" alt="">
     
 </body>
 </html>
