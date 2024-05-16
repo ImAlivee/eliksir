@@ -3,14 +3,14 @@
         <ul>
             <li id="titre">Les differentes etapes</li>
             <li><a href="#maltage"><img class="etapes_brassage" src="img_brassage_site_web/etapes_brassage/Le_Maltage_web.jpg" alt="étape 1" ></a></li>
-            <li><img class="etapes_brassage" src="img_brassage_site_web/etapes_brassage/Le_Brassage_web.jpg" alt="étape 2"></li>
-            <li><img class="etapes_brassage" src="img_brassage_site_web/etapes_brassage/Lempatage_web.jpg" alt="étape 3"></li>
-            <li><img class="etapes_brassage" src="img_brassage_site_web/etapes_brassage/La_Filtration_web.jpg" alt="étape 4"></li>
-            <li><img class="etapes_brassage" src="img_brassage_site_web/etapes_brassage/Ebullition_web.jpg" alt="étape 5"></li>
-            <li><img class="etapes_brassage" src="img_brassage_site_web/etapes_brassage/Refroidissement_web.jpg" alt="étape 6"></li>
-            <li><img class="etapes_brassage" src="img_brassage_site_web/etapes_brassage/Le_Maltage_web.jpg" alt="étape 7"></li>
-            <li><img class="etapes_brassage" src="img_brassage_site_web/etapes_brassage/Maturation_web.jpg" alt="étape 8"></li>
-            <li><img class="etapes_brassage" src="img_brassage_site_web/etapes_brassage/Lembouteillage_web.jpg" alt="étape 9"></li>
+            <li><img class="etapes_brassage" src="public/images/img_brassage_site_web/etapes_brassage/Le_Brassage_web.jpg" alt="étape 2"></li>
+            <li><img class="etapes_brassage" src="public/images/img_brassage_site_web/etapes_brassage/Lempatage_web.jpg" alt="étape 3"></li>
+            <li><img class="etapes_brassage" src="public/images/img_brassage_site_web/etapes_brassage/La_Filtration_web.jpg" alt="étape 4"></li>
+            <li><img class="etapes_brassage" src="public/images/img_brassage_site_web/etapes_brassage/Ebullition_web.jpg" alt="étape 5"></li>
+            <li><img class="etapes_brassage" src="public/images/img_brassage_site_web/etapes_brassage/Refroidissement_web.jpg" alt="étape 6"></li>
+            <li><img class="etapes_brassage" src="public/images/img_brassage_site_web/etapes_brassage/Le_Maltage_web.jpg" alt="étape 7"></li>
+            <li><img class="etapes_brassage" src="public/images/img_brassage_site_web/etapes_brassage/Maturation_web.jpg" alt="étape 8"></li>
+            <li><img class="etapes_brassage" src="public/images/img_brassage_site_web/etapes_brassage/Lembouteillage_web.jpg" alt="étape 9"></li>
         </ul>
         </section>
         <section class="etapes">
@@ -18,8 +18,8 @@
             <ul>
                 <li> 
                     <div class="gauche">
-                        <img src="img_brassage_site_web/etapes_brassage/Le_Maltage_web.jpg" alt="maltage" id="maltage">
-                        <img src="img_brassage_site_web/etapes_brassage/Le_Maltage_web.jpg" alt="">
+                        <img src="public/images/img_brassage_site_web/etapes_brassage/Le_Maltage_web.jpg" alt="maltage" id="maltage">
+                        <img src="public/images/img_brassage_site_web/etapes_brassage/Le_Maltage_web.jpg" alt="">
                     </div>
                     <div>
                         <h2>maltage</h2>
