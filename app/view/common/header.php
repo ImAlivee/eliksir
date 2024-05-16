@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="brassage.css">
     <link rel="stylesheet" href="grid.css">
     <link rel="stylesheet" href="taille_img.css">
-    <link rel="icon" type="image/svg+xml" href="public/images/favicon/favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="img_brassage_site_web/favicon.svg">
 
 </head>
 <body>
