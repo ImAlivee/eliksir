@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Aldo';
+    src: url('/chemin/vers/votre/police/Aldo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Noatun';
+    src: url('/chemin/vers/votre/police/Noatun.ttf') format('truetype');
+}
+
+footer {
+    background-color: #1f1a03;
+    padding: 20px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Pour séparer les deux sections */
+    align-items: center;
+    padding-top: 30px;
+}
+
+.brasserie {
+    font-family: 'Aldo', sans-serif;
+    text-align: center;
+}
+
+.map-container {
+    margin-top: 20px;
+}
+
+.map-container iframe {
+    width: 300px;
+    height: 200px;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+}
+
+.sections ul {
+    list-style-type: none;
+    margin-left: 20px; /* Ajout de marge gauche */
+}
+
+.sections ul li {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sections ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sections ul li a:hover {
+    text-decoration: underline;
+}
+.main .button{
+    background-color: white;
+    width: 56px;
+    height: 56px;
+    float: left;
+    border-radius: 50px;
+    margin: 0 12px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgb(0,0,0,0.15);
+    transition: all .3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.main .button:hover{
+    width: 160px;
+}
+.main .button:nth-child(1):hover{
+    background:linear-gradient(
+        to right,
+        hsl(50, 22%, 66%),
+        hsl(49,30%,22%)
+    );
+    color:white;    
+}
+
+.button .s-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    text-align: center;
+    transition: all .3s ease-in-out;
+}
+
+.button .s-icon i{
+    font-size: 24px;
+}
+
+.button span{
+    font-size:18px;
+    font-weight: 700;
+}
