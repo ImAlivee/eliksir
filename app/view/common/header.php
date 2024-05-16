@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?=$page_title?></title>
-    <link rel="stylesheet" href="brassage.css">
+    <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="grid.css">
     <link rel="stylesheet" href="taille_img.css">
     <link rel="icon" type="image/svg+xml" href="/public/images/favicon/favicon.svg">
