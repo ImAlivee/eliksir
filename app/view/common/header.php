@@ -7,19 +7,19 @@
     <link rel="stylesheet" href="brassage.css">
     <link rel="stylesheet" href="grid.css">
     <link rel="stylesheet" href="taille_img.css">
-    <link rel="icon" type="image/svg+xml" href="img_brassage_site_web/favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="/public/images/favicon/favicon.svg">
 
 </head>
 <body>
     <nav>
-        <img id="logo" src="img_brassage_site_web/logo_eliksir_beige.png" alt="" href="">
+        <img id="logo" src="/public/images/logos/logo_eliksir_beige.png" alt="" href="">
         <ul>
             <li>Les produits</li>
             <li>Le brassage</li>
             <li>Qui sommes nous ?</li>
             <li>Les produits</li>
             <li>Contacts</li>
-            <li><img id="bouton_panier" src="img_brassage_site_web/Panier.png" alt="" href=" "></li>
+            <li><img id="bouton_panier" src="/public/images/Panier.png" alt="" href=" "></li>
         </ul>
     </nav>
     <main>
