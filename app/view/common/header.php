@@ -17,7 +17,6 @@
             <li>Les produits</li>
             <li>Le brassage</li>
             <li>Qui sommes nous ?</li>
-            <li>Les produits</li>
             <li>Contacts</li>
             <li><img id="bouton_panier" src="/public/images/Panier.png" alt="" href=" "></li>
         </ul>
