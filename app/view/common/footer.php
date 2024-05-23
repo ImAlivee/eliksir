@@ -20,7 +20,7 @@
                     <li><a href="">Mentions Légales</a></li>
                     <li><a href="">Festival Enzyme</a></li>
                 </ul>
-                <ul><link rel="stylesheet" href="public\css\reseaux.css">
+                <ul><link rel="stylesheet" href="public\css\main.css">
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
                     
                     <a href="https://www.instagram.com/eliksir_officiel/">

@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?=$page_title?></title>
     <link rel="stylesheet" href="/public/css/style.css">
-    <link rel="stylesheet" href="/public/css/grid.css">
     <link rel="stylesheet" href="/public/css/main.css">
     <link rel="icon" type="image/svg+xml" href="/public/images/favicon/favicon.svg">
 
