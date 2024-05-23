@@ -1,14 +1,20 @@
 <h1>Panier</h1>
-<section>
-<h2>produits</h2>
-<h2>quantité</h2>
-<h2>prix total</h2>
-<p>nom</p>
-<form action="" method="get">
-    <input type="number" name="comment">
-</form>
-<p id="prix">11.00€</p>
+<section class="grid">
+    <div class="gridleft">
+        <h2 id="child" class="line1">produits</h2>
+        <img class="biere" src="/public/images/img_brassage_site_web/Posts_bieres/Posts bières/heritage.jpg">
+        <p>nom</p>
+    </div>
+    <div class="gridright">
+        <h2 class="line1">quantité</h2>
+        <h2 class="line1">prix total</h2>
+        <form action="" method="get">
+        <input type="number" name="comment">
+        </form>
+    <p id="prix">11.00€</p>
+    <h2 class="">Total du panier</h2>
+    <p id="prix">11.00€</p>
+    </div>
 </section>
-<section class="">Total du panier</section>
 <button type="submit">poursuivre les achats</button>
 <button type="submit">commander</button>
