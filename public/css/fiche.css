@@ -1,0 +1,22 @@
+.sommaire ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+}
+#titre{
+    grid-column: 1/4;
+    grid-row: 1/1;
+
+}
+.etapes ul li{
+    display: flex;
+    margin: 10%;
+}
+.etapes .gauche{
+    flex-direction: row-reverse;
+    padding: 1%;
+}
+.droite{
+    padding: 1%;
+}
+
