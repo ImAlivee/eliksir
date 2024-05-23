@@ -1,7 +1,7 @@
 <?php
 session_start();
 // Récupération des données :
-//include base de données
+include 'app/model/connexionBDD.php';
 
 var_dump($_SESSION);
 if(isset($_SESSION['message'])){
