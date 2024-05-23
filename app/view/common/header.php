@@ -21,4 +21,4 @@
             <li><img id="bouton_panier" src="/public/images/Panier.png" alt="" href=" "></li>
         </ul>
     </nav>
-    <main>
+<main>
