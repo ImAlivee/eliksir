@@ -1,13 +1,3 @@
-    <nav>
-        <ul>
-            <li><img id="logo" src="/public/images/logos/logo_eliksir_beige.png" alt="" href=""></li>
-            <li><a href="produits.view.html">Les produits</a></li>
-            <li><a href="brassage.view.html">Le brassage</a></li>
-            <li><a href="qui_somme_nous.view.html">Qui sommes nous ?</a></li>
-            <li>Contacts</li>
-            <li><img id="bouton_panier" src="/public/images/Panier.png" alt="" href="panier.view.html"></li>
-        </ul>
-    </nav>
 <h1>Panier</h1>
 <section class="grid">
     <div class="gridleft">
