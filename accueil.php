@@ -9,12 +9,12 @@ if(isset($_SESSION['message'])){
     unset($_SESSION['message']);
 }
 
-$page_title = 'Contact';
+$page_title = 'Accueil';
 $css = 'style1.css';
 
 // Génération et injection de la vue
 ob_start();
-include 'app/view/contact.view.php';
+include 'app/view/brassage.view.php';
 $content = ob_get_clean();
 
 // Inclusion du layout pour obtenir la page HTML

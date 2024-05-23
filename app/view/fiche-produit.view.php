@@ -1,20 +1,35 @@
 <section class="biere">
     <p class="retour"><</p>
     <div class="banière">
-        <img src="" alt="image de la banière">
-        <h1>TITRE DE LA BIERE</h1>
+    <?php
+            if (isset($biere['image_fond'])) {
+                $photo = 'fond' . $biere['nom_produit'];
+            } else {
+                $photo = 'defaut.png';
+            }
+            ?>
+            <img src="public/images/fond_biere/<?= $photo ?>" alt="photo de la bannière de la bière <?= $biere['nom_produit'] ?>">
+        <h1><?=$biere['nom_produit']?></h1>
     </div>
     <figure class="image">
-        <img src="" alt="image de la bière">
+        <?php
+            if (isset($biere['image'])) {
+                $photo = $biere['nom_produit'];
+            } else {
+                $photo = 'defaut.png';
+            }
+            ?>
+            <img src="public/images/biere/<?= $photo ?>" alt="photo de la bière <?= $biere['nom_produit'] ?>">
+        </figure>
     </figure>
 </section>
 
 <section class="description">
     <div class="text">
-        <p class="storytelling">blablablablablablablabla</p>
-        <p class="ingrédients">baies de genevrier</p>
-        <p class="infos">Blonde</p>
-        <p class="pourcentage">7,5%</p>
+        <p class="storytelling"><?= $biere['storytelling'] ?></p>
+        <p class="ingrédients"><?= $biere['ingredients'] ?></p>
+        <p class="infos"><?= $biere['type'] ?></p>
+        <p class="pourcentage"><?= $biere['pourcentage_alcool'] ?></p>
     </div>
     <div class="achat">
         <p class="prix">3,15€</p>
