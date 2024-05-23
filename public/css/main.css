@@ -1,3 +1,4 @@
+/* Reset and basic styles */
 * {
     padding: 0;
     margin: 0;
@@ -5,6 +6,7 @@
     list-style: none;
 }
 
+/* Font faces */
 @font-face {
     font-family: 'Aldo';
     src: url('/chemin/vers/votre/police/Aldo.ttf') format('truetype');
@@ -15,24 +17,29 @@
     src: url('/chemin/vers/votre/police/Noatun.ttf') format('truetype');
 }
 
+/* Footer styles */
 footer {
     background-color: #1f1a03;
     padding: 20px;
     color: white;
+    text-align: center;
 }
 
+/* Container styles */
 .container {
     display: flex;
-    justify-content: space-between; /* Pour séparer les deux sections */
+    justify-content: space-between;
     align-items: center;
     padding-top: 30px;
 }
 
+/* Brasserie styles */
 .brasserie {
     font-family: 'Aldo', sans-serif;
     text-align: center;
 }
 
+/* Map container styles */
 .map-container {
     margin-top: 20px;
 }
@@ -42,14 +49,16 @@ footer {
     height: 200px;
 }
 
+/* Sections styles */
 .sections {
     display: flex;
     flex-direction: column;
+    align-items: center; /* Centering the menu items */
 }
 
 .sections ul {
     list-style-type: none;
-    margin-left: 20px; /* Ajout de marge gauche */
+    margin: 20px 0; /* Adding vertical margin */
 }
 
 .sections ul li {
@@ -60,12 +69,15 @@ footer {
 .sections ul li a {
     color: white;
     text-decoration: none;
+    transition: color 0.3s; /* Smooth color transition */
 }
 
 .sections ul li a:hover {
-    text-decoration: underline;
+    color: #c88a36; /* Change color on hover */
 }
-.main .button{
+
+/* Button styles */
+.main .button {
     background-color: white;
     width: 56px;
     height: 56px;
@@ -74,66 +86,199 @@ footer {
     margin: 0 12px;
     overflow: hidden;
     cursor: pointer;
-    box-shadow: 0 4px 4px rgb(0,0,0,0.15);
-    transition: all .3s ease-in-out;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
     margin-bottom: 20px;
 }
 
-.main .button:hover{
+.main .button:hover {
     width: 160px;
 }
-.main .button:nth-child(1):hover{
-    background:linear-gradient(
+
+.main .button:nth-child(1):hover {
+    background: linear-gradient(
         to right,
         hsl(50, 22%, 66%),
-        hsl(49,30%,22%)
+        hsl(49, 30%, 22%)
     );
-    color:white;    
+    color: white;    
 }
 
 .button .s-icon {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     width: 56px;
     height: 56px;
     border-radius: 50%;
     text-align: center;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
-.button .s-icon i{
+.button .s-icon i {
     font-size: 24px;
 }
 
-.button span{
-    font-size:18px;
+.button span {
+    font-size: 18px;
     font-weight: 700;
 }
-  
-  nav ul {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      color: white;
-  }
-  
-  #intro {
-      text-align: center;
-      margin-top: 5%;
-      margin-bottom: 5%;
-  }
-  
-  h2 {
-      color: #c88a36;
-  }
-  
-  nav {
-      background-color: #1f1a03;
-      padding: 3%;
-  }
-  
-  body {
-      background-color: #ddd8bd;
-  }
+
+/* Navigation styles */
+nav {
+    background-color: #1f1a03;
+    padding: 20px; /* Adjusted padding for better spacing */
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 50px; /* Adjust the size of the logo as needed */
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li {
+    position: relative;
+    padding: 15px 20px;
+    margin: 0 10px;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+nav ul li::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #c88a36;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+nav ul li:hover {
+    background-color: #333;
+    transform: scale(1.1);
+}
+
+/* Dropdown menu example (if applicable) */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #1f1a03;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 200px;
+    padding: 10px 20px;
+}
+
+nav ul li ul li:hover {
+    background-color: #c88a36;
+}
+
+#intro {
+    text-align: center;
+    margin: 5% 0;
+}
+
+h2 {
+    color: #c88a36;
+}
+
+/* Body background color */
+body {
+    background-color: #ddd8bd;
+}
+
+#bouton_panier {
+    height: 100px;
+}
+
+.titre {
+    font-family: 'Noatun', sans-serif;
+    color: #c88a36;
+}
+
+/* Team member section */
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 50px; /* Added margin-bottom to create space below the team section */
+}
+
+.member {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.member img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.member .personne {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.member .descriptif {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Storytelling section */
+.storytelling {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ccc;
+}
+
+.storytelling img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.storytelling p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+li{
+    font-family:"Noatun Version 1";
+    text-decoration:none;
+    color: #ccc;
+}

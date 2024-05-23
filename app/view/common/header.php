@@ -12,13 +12,17 @@
 </head>
 <body>
     <nav>
-        <img id="logo" src="/public/images/logos/logo_eliksir_beige.png" alt="" href="">
-        <ul>
-            <li>Les produits</li>
-            <li>Le brassage</li>
-            <li>Qui sommes nous ?</li>
-            <li>Contacts</li>
-            <li><img id="bouton_panier" src="/public/images/Panier.png" alt="" href=" "></li>
+        
+        
+        <ul class="menu">
+        <div class="logo">
+        <img src="/public/images/logos/logo_eliksir_beige.png" alt="" href="">
+        </div>
+            <a href="produits.php"><li>Les produits</li></a>
+            <a href="brassage.php"><li>Le brassage</li></a>
+            <a href="qui_somme_nous.php"><li>Qui sommes nous ?</li></a>
+            <a href="contact.php"><li>Contacts</li></a>
+            <a href="panier.php"><li><img id="bouton_panier" src="/public/images/Panier.png" alt=""></li></a>
         </ul>
     </nav>
     <main>
