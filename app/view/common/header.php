@@ -25,4 +25,4 @@
             <a href="panier.php"><li><img id="bouton_panier" src="/public/images/Panier.png" alt=""></li></a>
         </ul>
     </nav>
-    <main>
+<main>
