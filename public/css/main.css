@@ -230,7 +230,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
-    margin-bottom: 50px; /* Added margin-bottom to create space below the team section */
+    margin-bottom: 200px; /* Added margin-bottom to create space below the team section */
 }
 
 .member {
@@ -281,4 +281,7 @@ li{
     font-family:"Noatun Version 1";
     text-decoration:none;
     color: #ccc;
+}
+#ange{
+    height: 300px;
 }
