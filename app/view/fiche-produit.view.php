@@ -13,11 +13,12 @@
     <div class="text">
         <p class="storytelling">blablablablablablablabla</p>
         <p class="ingrédients">baies de genevrier</p>
-        <p class="infos">Blonde 7,5%</p>
+        <p class="infos">Blonde</p>
+        <p class="pourcentage">7,5%</p>
     </div>
     <div class="achat">
         <p class="prix">3,15€</p>
-        <button action="submit" method="get">Ajouter</button>
+        <button action="submit" method="get">Ajouter au panier</button>
     </div>
 
 
