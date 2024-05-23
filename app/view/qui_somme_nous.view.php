@@ -52,7 +52,7 @@
         <section class="storytelling">
             <h1 class="titre">StoryTelling</h1>
             <img id="ange" src="/public/images/ange.png" alt="Ange">
-            <img id="alexis" src="alexis.jpg" alt="Alexis">
+            <img id="alexis" src="/public/images/alexis.jpg" alt="Alexis">
             <p>
                 Günther, fasciné par les pouvoirs insoupçonnés de ces potions, décida de les partager avec le monde sous la forme
                 de la marque de bière "Eliksir". Chaque bière de la gamme Eliksir était imprégnée de l'énergie et de l'esprit des Vikings, 
