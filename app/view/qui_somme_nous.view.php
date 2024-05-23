@@ -11,43 +11,7 @@
             </p>
         </section>
 
-        <section class="team">
-            <div class="member">
-                <img src="tom.jpg" alt="Tom Roche">
-                <h2 class="personne">Tom Roche</h2>
-                <p class="descriptif">...</p>
-            </div>
-
-            <div class="member">
-                <img src="aurore.jpg" alt="Aurore Regnier">
-                <h2 class="personne">Aurore Regnier</h2>
-                <p class="descriptif">...</p>
-            </div>
-
-            <div class="member">
-                <img src="henry.jpg" alt="Henry N'kakou">
-                <h2 class="personne">Henry N'kakou</h2>
-                <p class="descriptif">...</p>
-            </div>
-
-            <div class="member">
-                <img src="mathis.jpg" alt="Mathis Muller">
-                <h2 class="personne">Mathis Muller</h2>
-                <p class="descriptif">...</p>
-            </div>
-
-            <div class="member">
-                <img src="nawfal.jpg" alt="Nawfal Elissaoui">
-                <h2 class="personne">Nawfal Elissaoui</h2>
-                <p class="descriptif">
-                    Je m'appelle Nawfal et j’ai 18 ans. J'ai un Baccalauréat général avec les spécialités mathématiques et physique-chimie. 
-                    Passionné par le multimédia, la photographie et les nouvelles technologies depuis petit, le choix du multimédia était un 
-                    choix évident. Je suis également épris de taekwondo depuis 7 ans. Dans ce sport, il y a des valeurs que j'essaye d'appliquer 
-                    dans ma vie de tous les jours ! Je suis à la recherche d'une alternance dans les domaines de l'expérience utilisateur/interface 
-                    utilisateur (UX/UI), de la communication et du management de produit (Product Manager).
-                </p>
-            </div>
-        </section>
+        
 
         <section class="storytelling">
             <h1 class="titre">StoryTelling</h1>
