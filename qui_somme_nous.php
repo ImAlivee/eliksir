@@ -10,7 +10,7 @@ if(isset($_SESSION['message'])){
 }
 
 $page_title = 'Qui sommes nous ?';
-$css = 'style1.css';
+$css = '/public/css/qui_sommes_nous.css';
 
 // Génération et injection de la vue
 ob_start();
