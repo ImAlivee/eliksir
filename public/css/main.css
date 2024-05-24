@@ -9,12 +9,19 @@
 /* Font faces */
 @font-face {
     font-family: 'Aldo';
-    src: url('/public/fonts/Aldo\ PC.ttf') format('truetype');
+    src: url('/public/fonts/Aldo PC.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Noatun';
-    src: url('/public/fonts/Noatun\ v1.otf') format('truetype');
+    font-family: 'Montserrat Bold';
+    src: url('/public/fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+/* Basic styles for body */
+body {
+    font-family: sans-serif; /* Default fallback font */
+    color: #333;
+    background-color: #fff;
 }
 
 /* Footer styles */
@@ -139,12 +146,12 @@ nav {
 .logo img {
     max-height: 50px; /* Adjust the size of the logo as needed */
 }
-#logo{
+#logo {
     height: 70px;
 }
-li{
-    font-family:"Noatun Version 1";
-    text-decoration:none;
+li {
+    font-family: 'Montserrat Bold', sans-serif; /* Specifying fallback font */
+    text-decoration: none;
     color: #ccc;
 }
 
@@ -155,6 +162,10 @@ nav ul {
     color: white;
     transition: all 0.3s ease-in-out;
 }
+#bouton_panier {
+    height: 100px;
+}
+
 
 nav ul li {
     position: relative;
@@ -209,10 +220,11 @@ nav ul li ul li:hover {
     background-color: #c88a36;
 }
 
-.paragraphe{
-    font-family: 'Aldo';
-    margin:20px
+.paragraphe {
+    font-family: 'Aldo', sans-serif;
+    margin: 20px;
 }
-a{
+
+a {
     text-decoration: none;
 }
