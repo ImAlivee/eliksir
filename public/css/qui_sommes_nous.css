@@ -75,18 +75,11 @@ body {
     line-height: 1.6;
     margin-top: 10px;
 }
-li{
-    font-family:"Noatun Version 1";
-    text-decoration:none;
-    color: #ccc;
-}
+
 #ange{
     height: 300px;
 }
 .paragraphe{
     font-family: 'Aldo';
     margin:20px
-}
-#logo{
-    height: 70px;
 }
