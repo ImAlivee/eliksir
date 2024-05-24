@@ -10,7 +10,7 @@ if(isset($_SESSION['message'])){
 }
 
 $page_title = 'Brassage';
-$css = 'style1.css';
+$css = 'brassage.css';
 
 // Génération et injection de la vue
 ob_start();

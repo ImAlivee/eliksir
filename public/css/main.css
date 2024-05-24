@@ -209,3 +209,10 @@ nav ul li ul li:hover {
     background-color: #c88a36;
 }
 
+.paragraphe{
+    font-family: 'Aldo';
+    margin:20px
+}
+a{
+    text-decoration: none;
+}
