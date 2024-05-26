@@ -11,12 +11,21 @@
     </p>
 
     <section class="team">
+    <div class="member">
+            <div class="image-container">
+                <img src="public\images\photos_groupe\photo_nawfal.jpg" alt="nawfal" class="default-img">
+                <img src="public\images\photos_groupe\photo_nawfal_debout.jpg" alt="nawfal Hover" class="hover-img">
+            </div>
+            <h2 class="personne">Nawfal Elissaoui</h2>
+        </div>
+
         <div class="member">
             <div class="image-container">
                 <img src="public\images\photos_groupe\photo_tom.jpg" alt="tom" class="default-img">
                 <img src="public\images\photos_groupe\photo_tom_debout.jpg" alt="Tom Hover" class="hover-img">
             </div>
-            <h2 class="personne">Tom roche</h2>
+            <h2 class="personne">Tom Roche</h2>
+            <h4>Auteur de la propagande Tr_design</h4>
         </div>
         
         <div class="member">
@@ -24,21 +33,21 @@
                 <img src="public/images/photos_groupe/photo_aurore_debout1.jpg" alt="aurore" class="default-img">
                 <img src="public/images/photos_groupe/photo_aurore_debout2.jpg" alt="Aurore Hover" class="hover-img">
             </div>
-            <h2 class="personne">Aurore</h2>
+            <h2 class="personne">Aurore Regnier</h2>
         </div>
         <div class="member">
             <div class="image-container">
                 <img src="public/images/photos_groupe/photo_henry.jpg" alt="henry" class="default-img">
                 <img src="public/images/photos_groupe/photo_henry.jpg" alt="Henry Hover" class="hover-img">
             </div>
-            <h2 class="personne">Henry</h2>
+            <h2 class="personne">Henry N'kakou</h2>
         </div>
         <div class="member">
             <div class="image-container">
                 <img src="public\images\photos_groupe\photo_mathis.jpg" alt="mathis" class="default-img">
                 <img src="public\images\photos_groupe\photo_mathis.jpg" alt="Mathis Hover" class="hover-img">
             </div>
-            <h2 class="personne">Mathis</h2>
+            <h2 class="personne">Mathis Muller</h2>
         </div>
         
     </section>
