@@ -38,7 +38,7 @@
         <div class="member">
             <div class="image-container">
                 <img src="public/images/photos_groupe/photo_henry.jpg" alt="henry" class="default-img">
-                <img src="public/images/photos_groupe/photo_henry.jpg" alt="Henry Hover" class="hover-img">
+                <img src="public/images/photos_groupe/photo_henry2.jpg" alt="Henry Hover" class="hover-img">
             </div>
             <h2 class="personne">Henry N'kakou</h2>
         </div>
