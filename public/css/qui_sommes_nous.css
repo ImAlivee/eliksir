@@ -1,82 +1,94 @@
-#intro {
-    text-align: center;
-    margin: 5% 0;
-}
-
-h2 {
-    color: #c88a36;
-}
-
 /* Body background color */
 body {
     background-color: #ddd8bd;
+    font-family: Arial, sans-serif;
 }
 
-
+/* General title style */
 .titre {
-    font-family: 'Montserrat SemiBold';
+    font-family: 'Montserrat SemiBold', sans-serif;
     color: #c88a36;
+    text-align: center;
     margin: 20px;
 }
 
-/* Team member section */
+/* Introduction image style */
+.intro-image {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Introduction paragraph style */
+.paragraphe {
+    font-family: 'Aldo';
+    margin: 20px;
+}
+
+/* Team section styles */
 .team {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
-    margin-bottom: 300px; /* Added margin-bottom to create space below the team section */
+    margin-bottom: 300px;
 }
 
 .member {
     width: 30%;
     text-align: center;
     margin-bottom: 20px;
+    position: relative;
 }
 
-.member img {
+.image-container {
+    position: relative;
     width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-bottom: 100%; /* Aspect ratio 1:1 */
+    overflow: hidden; /* Ensure overflow is hidden to crop the image */
 }
 
-.member .personne {
+.image-container img {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain; /* Remplacez 'cover' par 'contain' */
+    transition: opacity 0.3s ease;
+}
+
+.default-img {
+    z-index: 1;
+}
+
+.hover-img {
+    z-index: 2;
+    opacity: 0;
+}
+
+.image-container:hover .hover-img {
+    opacity: 1;
+}
+
+.image-container:hover .default-img {
+    opacity: 0;
+}
+
+.personne {
     margin-top: 10px;
     font-size: 1.2em;
     color: #333;
 }
 
-.member .descriptif {
-    font-size: 1em;
-    color: #666;
-}
-
-/* Storytelling section */
-.storytelling {
-    padding: 20px;
-    background-color: #f5f5f5;
-    border-top: 1px solid #ccc;
-}
-
-.storytelling img {
-    display: block;
-    margin: 10px auto;
-    max-width: 100%;
-    height: auto;
-}
-
-.storytelling p {
-    font-size: 1.1em;
-    color: #333;
-    line-height: 1.6;
-    margin-top: 10px;
-}
-
-#ange, #alexis{
+#alexis, #ange{
     height: 300px;
 }
-.paragraphe{
-    font-family: 'Aldo';
-    margin:20px
+.image-alexis-ange{
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap as needed */
+    margin-bottom: 20px;
 }
