@@ -45,7 +45,7 @@
         <div class="member">
             <div class="image-container">
                 <img src="public\images\photos_groupe\photo_mathis.jpg" alt="mathis" class="default-img">
-                <img src="public\images\photos_groupe\photo_mathis.jpg" alt="Mathis Hover" class="hover-img">
+                <img src="public\images\photos_groupe\photo_mathis2.jpg" alt="Mathis Hover" class="hover-img">
             </div>
             <h2 class="personne">Mathis Muller</h2>
         </div>
