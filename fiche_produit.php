@@ -2,7 +2,7 @@
 session_start();
 
 if(!isset($_SESSION['majeur'])) {
-    header('Location:majeur.php');
+    header('Location: majeur.php');
     exit;
 } 
 // Récupération des données :
@@ -13,7 +13,8 @@ if (empty($_GET['num']) || !ctype_digit($_GET['num']) || $_GET['num'] < 1) {
     header('Location: accueil.php');
     exit;
 }
-$numBeer = intval($_GET['num']);
+//$numBeer = intval($_GET['num']);
+$numBeer = 1;
 
 require_once 'app/model/connexionBDD.php';
 require_once 'app/model/fiche.model.php';
