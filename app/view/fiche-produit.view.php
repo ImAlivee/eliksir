@@ -33,7 +33,9 @@
     </div>
     <div class="achat">
         <p class="prix">3,15€</p>
+        <form>
         <button action="submit" method="get">Ajouter au panier</button>
+        </form>
     </div>
 
 

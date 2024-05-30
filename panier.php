@@ -14,7 +14,7 @@ if(isset($_SESSION['message'])){
 }
 
 $page_title = 'Votre Panier';
-$css = '/public/css/panier.css';
+$css = 'panier.css';
 
 // Génération et injection de la vue
 ob_start();
