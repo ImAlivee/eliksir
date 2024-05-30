@@ -13,6 +13,11 @@ function addToCart($productId) {
     }
 }
 
-function totalItem(){
+function totalCart($totalItem){
     $totalItem = 0;
+    if (isset($_SESSION['panier'])) {
+        foreach ($_SESSION['panier'] as $quantity) {
+            $totalItem += $quantity;
+        }
+    }
 }

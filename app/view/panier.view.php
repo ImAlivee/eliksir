@@ -34,7 +34,7 @@
     <button onclick="window.location.href='checkout.php'">Commander</button>
    
     <div class="suggestion">
-    <img id="photo" src="public/images/img_brassage_site_web/Posts_bieres/Posts bières/richesse.jpg" alt="">
+    <img id="photo" src="/public/images/img_brassage_site_web/Posts_bieres/Posts bières/Courage.jpg" alt="">
     <h3>Nom de la biere</h3>
     <p>Type de biere</p>
 </div>
