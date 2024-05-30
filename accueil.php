@@ -1,5 +1,10 @@
 <?php
 session_start();
+if(!isset($_SESSION['majeur'])) {
+    header('Location:majeur.php');
+    exit;
+} 
+
 // Récupération des données :
 include 'app/model/connexionBDD.php';
 
@@ -14,7 +19,7 @@ $css = 'style1.css';
 
 // Génération et injection de la vue
 ob_start();
-include 'app/view/brassage.view.php';
+include 'app/view/accueil.view.php';
 $content = ob_get_clean();
 
 // Inclusion du layout pour obtenir la page HTML
