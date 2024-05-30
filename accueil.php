@@ -1,5 +1,10 @@
 <?php
 session_start();
+if(!isset($_SESSION['majeur'])) {
+    header('Location:majeur.php');
+    exit;
+} 
+
 // Récupération des données :
 include 'app/model/connexionBDD.php';
 

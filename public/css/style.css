@@ -1,0 +1,11 @@
+/* Font faces */
+@font-face {
+    font-family: 'Aldo';
+    src: url('/public/fonts/Aldo PC.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('/public/fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
