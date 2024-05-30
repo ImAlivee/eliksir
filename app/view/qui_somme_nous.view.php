@@ -79,3 +79,35 @@
             chacun pouvait désormais puiser dans la sagesse et la force des Vikings, révélant ainsi le véritable potentiel de leur héritage nordique.
         </p>
     </section>
+
+    <h1>Commentaires des utilisateurs</h1>
+    
+    <div id="review-form">
+        <h2>Laissez un avis</h2>
+        <form id="submitReviewForm">
+            <input type="hidden" id="user_id" value="1"> <!-- ID utilisateur connecté -->
+            <label for="rating">Note :</label>
+            <div class="star-rating">
+                <span class="fa fa-star-o" data-rating="5"></span>
+                <span class="fa fa-star-o" data-rating="4"></span>
+                <span class="fa fa-star-o" data-rating="3"></span>
+                <span class="fa fa-star-o" data-rating="2"></span>
+                <span class="fa fa-star-o" data-rating="1"></span>
+                <input type="hidden" name="rating" id="rating" value="1">
+            </div>
+            <br>
+            <label for="comment">Commentaire :</label>
+            <textarea id="comment" name="comment" required></textarea>
+            <br>
+            <button type="submit">Soumettre</button>
+        </form>
+    </div>
+
+    <div id="reviews">
+        <h2>Avis des utilisateurs</h2>
+        <div id="reviews-list"></div>
+    </div>
+
+    <script src="public/js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="avis.css">

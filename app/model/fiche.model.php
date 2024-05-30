@@ -9,7 +9,7 @@ function getBeer(int $numBeer, PDO $pdo): array {
         $_SESSION['message'] = "L'identifiant de l'étudiant n'est pas correct.";
         header('Location: accueil.php');
         exit;
-}
+    }
 
     return $biere;
 }

@@ -6,6 +6,7 @@
     <title><?=$page_title?></title>
     <link rel="stylesheet" href="public/css/<?=$css?>">
     <link rel="stylesheet" href="public/css/main.css">
+    <link rel="stylesheet" href="public/css/avis.css">
     <link rel="icon" type="image/svg+xml" href="public/images/favicon/favicon.svg">
 </head>
 <body>
