@@ -1,0 +1,33 @@
+.heritage {
+    margin: 2% 0 0 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nous img {
+    width: 30%;
+}
+
+.suggestion {
+    margin-top: 2%;
+}
+
+.heritage p {
+    margin-left: 2%;
+    display:block;
+}
+
+.etape {
+    margin: 2% 0 0 ;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+h1 {
+    font-size: 300%; 
+}
+
+.etape {
+    text-align: center;
+}
