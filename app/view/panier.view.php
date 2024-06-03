@@ -4,10 +4,10 @@
             <h2 id="child" class="line1">Produits</h2>
             <?php if (isset($_SESSION['panier']) && count($_SESSION['panier']) > 0) : ?>
                 <?php foreach ($_SESSION['panier'] as $id => $quantity) : ?>
-                    <div class="product-item">
-                        <img class="biere" src="/public/images/img_brassage_site_web/Posts_bieres/Posts bières/heritage.jpg" alt="Produit">
+                    <!--<div class="product-item">
+                        <img class="biere" src="/public/images/img_brassage_site_web/Posts_bieres/Heritage.jpg" alt="Produit">
                         <p><?php echo $products[$id]; ?></p>
-                    </div>
+                    </div>-->
                 <?php endforeach; ?>
             <?php else : ?>
                 <h2>Votre panier est vide.</h2>
@@ -34,7 +34,7 @@
     <button onclick="window.location.href='checkout.php'">Commander</button>
    
     <div class="suggestion">
-    <img id="photo" src="/public/images/img_brassage_site_web/Posts_bieres/Posts bières/Courage.jpg" alt="">
+    <img id="photo" src="/public/images/img_brassage_site_web/Posts_bieres/Courage.jpg" alt="">
     <h3>Nom de la biere</h3>
     <p>Type de biere</p>
 </div>
