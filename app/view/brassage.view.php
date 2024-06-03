@@ -8,7 +8,7 @@
             <li><img class="etapes_brassage" src="public/images/etapes_brassage/La_Filtration_web.jpg" alt="étape 4"></li>
             <li><img class="etapes_brassage" src="public/images/etapes_brassage/Ebullition_web.jpg" alt="étape 5"></li>
             <li><img class="etapes_brassage" src="public/images/etapes_brassage/Refroidissement_web.jpg" alt="étape 6"></li>
-            <li><img class="etapes_brassage" src="public/images/etapes_brassage/Le_Maltage_web.jpg" alt="étape 7"></li>
+            <li><img class="etapes_brassage" src="public/images/etapes_brassage/Fermentation_web.jpg" alt="étape 7"></li>
             <li><img class="etapes_brassage" src="public/images/etapes_brassage/Maturation_web.jpg" alt="étape 8"></li>
             <li><img class="etapes_brassage" src="public/images/etapes_brassage/Lembouteillage_web.jpg" alt="étape 9"></li>
         </ul>
