@@ -15,7 +15,7 @@ if(isset($_SESSION['message'])){
 }
 
 $page_title = 'Accueil';
-$css = 'style1.css';
+$css = 'accueil.css';
 
 // Génération et injection de la vue
 ob_start();
