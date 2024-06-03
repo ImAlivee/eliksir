@@ -1,8 +1,8 @@
 <?php
 session_start();
 // Récupération des données :
-include 'app/model/connexionBDD.php';
-include 'app/controller/MemberController.php';
+ include 'app/model/connexionBDD.php';
+ include 'app/controller/MemberController.php';
 var_dump($_SESSION);
 if(isset($_SESSION['message'])){
     $message = $_SESSION['message'];

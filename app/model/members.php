@@ -14,7 +14,7 @@ class Member {
     }
 
     public function read() {
-        $query = 'SELECT id, nom, description, image_default, image_hover FROM ' . $this->table;
+        $query = `SELECT id, nom, description, image_default, image_hover FROM` . $this->table;
         $stmt = $this->conn->prepare($query);
         $stmt->execute();
         return $stmt;
