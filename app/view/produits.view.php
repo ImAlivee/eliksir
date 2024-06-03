@@ -1,29 +1,35 @@
 
-<ul class="liste-de-bière">
-        <?php foreach ($bieres as $type => $listeBieres): ?>
-            <?php foreach ($listeBieres as $biere): ?>
-                <li>
-                    <h3><?php echo $bieres["nom"]; ?></h3>
-                    <p>Prix: <?php echo $bieres["prix"]; ?>€</p>
-                    <p>Taille: <?php echo $bieres["taille"]; ?></p>
-                </li>
-            <?php endforeach; ?>
+
+
+   
+
+          <?php foreach ($bières as $biere): ?>
+            <ul>
+            <div class="carte-biere">
+                <li>    <?php if (isset($biere['nom_produit'])): ?>
+                 <h2><?php echo $biere['nom_produit']; ?></h2>
+                <?php endif; ?>  </li>  
+
+                <li>     <?php if (isset($biere['prix'])): ?>
+                    <p>Prix: <?php echo $biere['prix']; ?> €</p>
+                <?php endif; ?>  </li>
+                <li>     <?php if (isset($biere['taux_alcool'])): ?>
+                    <p>Taux d'alcool: <?php echo $biere['taux_alcool']; ?>%</p>
+                <?php endif; ?>   </li>
+            </div>
+            <li>    
+                <?php echo $name; ?>
+                <a href=" ">Ajouter au panier</a>
+            </li>
+            </ul>
         <?php endforeach; ?>
-    </ul>
-    <ul class="listebiere">
-        <li>  A faire en boucle en fonction du nombre de bière
-            <h2>Nom de la bière</h2>
-            <img src="">
-            <h3>Prix</h3>
-            <p>Liste des ingrédients</p>
-            <h3>Pourcentage d'alcool</h3>
-        </li>
+
+
+
+
 
 <?php foreach ($products as $id => $name) : ?>
-            <li>
-                <?php echo $name; ?>
-                <a href="?add=<?php echo $id; ?>">Ajouter au panier</a>
-            </li>
+            
 <?php endforeach; ?>
 
 </ul>
