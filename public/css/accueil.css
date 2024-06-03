@@ -1,0 +1,13 @@
+.heritage img {
+    width: 30%;
+}
+
+.heritage {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heritage p {
+    text-align: center;
+    margin-top: 13%;
+}

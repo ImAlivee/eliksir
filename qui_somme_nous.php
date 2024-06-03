@@ -2,7 +2,7 @@
 session_start();
 // Récupération des données :
 include 'app/model/connexionBDD.php';
-
+include 'app/controller/MemberController.php';
 var_dump($_SESSION);
 if(isset($_SESSION['message'])){
     $message = $_SESSION['message'];
@@ -11,6 +11,8 @@ if(isset($_SESSION['message'])){
 
 $page_title = 'Qui sommes nous ?';
 $css = 'qui_sommes_nous.css';
+$memberController = new MemberController();
+$members = $memberController->index();
 
 // Génération et injection de la vue
 ob_start();

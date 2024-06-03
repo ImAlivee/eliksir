@@ -150,9 +150,12 @@ nav {
     height: 70px;
 }
 li {
-    font-family: 'Montserrat Bold', sans-serif; /* Specifying fallback font */
+    font-family: 'Montserrat', sans-serif; /* Specifying fallback font */
     text-decoration: none;
     color: #ccc;
+    text-transform:uppercase;
+    font-weight: 700;
+    font-size: 17px;
 }
 
 nav ul {
@@ -219,7 +222,6 @@ nav ul li ul li {
 nav ul li ul li:hover {
     background-color: #c88a36;
 }
-
 .paragraphe {
     font-family: 'Aldo', sans-serif;
     margin: 20px;
