@@ -1,9 +1,13 @@
 .heritage {
     margin: 2% 0 0 ;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border: solid;
+    padding: 4%;
+}
+.heritage img{
+    width: 60%;
 }
 
 .nous img {
@@ -31,6 +35,134 @@ h1 {
 
 .tous {
     display: flex;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     align-items: center;
     justify-content: space-around;
 }
