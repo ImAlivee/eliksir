@@ -14,6 +14,7 @@ if(isset($_SESSION['message'])){
     unset($_SESSION['message']);
 }
 //include ?
+$pdo = getDatabaseConnection();
 require_once 'app/model/produits.model.php';
 $infos = getInfo($pdo);
 
