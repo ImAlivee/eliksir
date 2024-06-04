@@ -3,11 +3,6 @@ session_start();
 // Récupération des données :
 include 'app/model/connexionBDD.php';
 
-var_dump($_SESSION);
-if(isset($_SESSION['majeur'])) {
-    header('Location: accueil.php');
-    exit;
-} 
 
 if ($_GET['reponse'] == 'oui')
 {
