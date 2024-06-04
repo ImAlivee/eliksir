@@ -30,13 +30,12 @@ h1 {
 }
 
 .etape {
-    text-align: center;
+    
 }
 
 .tous{
     display: grid ;
 }
 
-.etape{
-    grid: 1/2;
-}
+
+

@@ -21,7 +21,6 @@
 </section>
 
 
-
 <h2>Qui sommes nous ?</h2>
 <section class="tous">
 <div class="nous">
