@@ -1,26 +1,16 @@
 <?php
-function addToCart($productId) {
-    // Initialiser le panier s'il n'existe pas
-    if (!isset($_SESSION['panier'])) {
-        $_SESSION['panier'] = [];
-    }
 
-    // Ajouter ou incrémenter le produit dans le panier
-    if (isset($_SESSION['panier'][$productId])) {
-        $_SESSION['panier'][$productId]++;
-    } else {
-        $_SESSION['panier'][$productId] = 1;
-    }
+function getSpecificBeers (PDO $pdo, $ids){
+    
+    $list = join(",", $ids);
+    $sql = "SELECT * FROM beers WHERE id IN (" . $list . ")";
+    $stmt = $pdo->prepare($sql);
+    $SpecificBeers = $stmt->fetchAll();
+    
+    return $SpecificBeers;
+
 }
 
-function totalCart($totalItem){
-    $totalItem = 0;
-    if (isset($_SESSION['panier'])) {
-        foreach ($_SESSION['panier'] as $quantity) {
-            $totalItem += $quantity;
-        }
-    }
-}
 function getInfo(PDO $pdo): array
 {
     $sql = "SELECT * FROM biere";
