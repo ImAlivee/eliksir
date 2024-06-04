@@ -17,7 +17,7 @@ if (empty($_GET['num']) || !ctype_digit($_GET['num']) || $_GET['num'] < 1) {
 require_once 'app/model/connexionBDD.php';
 require_once 'app/model/fiche.model.php';
 
-$numBeer = intval($_GET['num']);
+$numBeer = htmlspecialchars($_GET['num']);
 $pdo = getDatabaseConnection();
 $biere = getBeer($numBeer, $pdo);
 
