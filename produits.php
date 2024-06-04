@@ -10,7 +10,7 @@ include 'app/model/connexionBDD.php';
 
 //include ?
 $pdo = getDatabaseConnection();
-require_once 'app/model/produits.model.php';
+require_once 'app/model/fonctions.model.php';
 $bieres = getInfo($pdo);
 
 
