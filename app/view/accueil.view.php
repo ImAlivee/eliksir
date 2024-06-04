@@ -6,11 +6,30 @@
         en soi les qualités que voulaient transmettre ces ancêtres !</p>
 </div>
 
-<div class="suggestion">
-    <img src="public\images\img_brassage_site_web\Posts_bieres\resilience.jpg" alt="">
-    <img src="public\images\img_brassage_site_web\Posts_bieres\sante.jpg" alt="">
-    <img src="public\images\img_brassage_site_web\Posts_bieres\seduction.jpg" alt="">
+<section class="suggestion">
+<div class="resilience">
+<img src="public\images\img_brassage_site_web\Posts_bieres\resilience.jpg" alt=""> 
+<p>type de biere</p>
+<p>Prix</p>
+<p>Le nom</p>
+<p>pourcentage</p>
 </div>
+<div class="sante">
+<img src="public\images\img_brassage_site_web\Posts_bieres\sante.jpg" alt="">
+<p>type de biere</p>
+<p>Prix</p>
+<p>Le nom</p>
+<p>pourcentage</p>
+</div>
+<div class="seduction">
+<img src="public\images\img_brassage_site_web\Posts_bieres\seduction.jpg" alt="">
+<p>type de biere</p>
+<p>Prix</p>
+<p>Le nom</p>
+<p>pourcentage</p>
+</div>
+</section>
+
 
 <section class="tous">
 <div class="etape">
