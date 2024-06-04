@@ -1,5 +1,7 @@
 <?php
 session_start();
+require_once 'app/model/connexionBDD.php';
+require_once 'app/model/fiche.model.php';
 
 if(!isset($_SESSION['majeur'])) {
     header('Location: majeur.php');
@@ -7,6 +9,7 @@ if(!isset($_SESSION['majeur'])) {
 } 
 // Récupération des données :
 include 'app/model/connexionBDD.php';
+$pdo = getDatabaseConnection();
 
 if (empty($_GET['num']) || !ctype_digit($_GET['num']) || $_GET['num'] < 1) {
     $_SESSION['message'] = "L'identifiant de la bière n'est pas correct.";
@@ -14,12 +17,10 @@ if (empty($_GET['num']) || !ctype_digit($_GET['num']) || $_GET['num'] < 1) {
     exit;
 }
 
-require_once 'app/model/connexionBDD.php';
-require_once 'app/model/fiche.model.php';
+
 
 $numBeer = intval($_GET['num']);
-$pdo = getDatabaseConnection();
-$biere = getBeer($numBeer,$pdo);
+$biere = getBeer($numBeer,getDatabaseConnection());
 
 
 $page_title = 'Bière - ' . $biere['nom_produit'];
