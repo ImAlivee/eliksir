@@ -19,7 +19,7 @@ require_once 'app/model/fiche.model.php';
 
 $numBeer = htmlspecialchars($_GET['num']);
 $pdo = getDatabaseConnection();
-$biere = getSpecificBeers($pdo,$numBeer);
+$biere = getBeer($numBeer,$pdo);
 
 
 $page_title = 'Bière - ' . $biere['nom_produit'];
