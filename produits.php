@@ -13,7 +13,6 @@ $pdo = getDatabaseConnection();
 require_once 'app/model/fonctions.model.php';
 $bieres = getInfo($pdo);
 
-
 $page_title = 'Produits';
 $css = 'style1.css';
 
