@@ -29,12 +29,12 @@ h1 {
     font-size: 300%; 
 }
 
-.etape {
-    
-}
 
-.tous{
-    display: grid ;
+
+.tous {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 

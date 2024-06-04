@@ -22,7 +22,7 @@
 
 
 <h2>Qui sommes nous ?</h2>
-<section class="tous">
+<section class="tout">
 <div class="nous">
     <p>texte a description</p>
     <img src="public\images\photos_groupe\photo_groupe.jpg" alt="">
