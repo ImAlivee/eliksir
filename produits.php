@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 if(!isset($_SESSION['majeur'])) {
     header('Location:majeur.php');
     exit;
