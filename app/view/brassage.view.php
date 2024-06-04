@@ -31,11 +31,11 @@
                         <p>Lors du brassage de la bière, le malt est concassé pour libérer les sucres et les enzymes nécessaires à la fermentation. Durant cette étape, on ajoute les différents malts afin d’ajouter les saveurs . Le malt concassé sera ensuite mélangé avec de l'eau chaude lors de l'étape de l'empâtage.</p>
                     </div>
                     <div class="droite">
-                        <img src="public/images/etapes_brassage/Le_Maltage_web.jpg" alt="brassage" id="brassage">
+                        <img src="public/images/etapes_brassage/Le_Brassage_web.jpg" alt="brassage" id="brassage">
                     </div>
                 </li>
                 <li> <div class="gauche">
-                        <img src="public/images/etapes_brassage/Le_Maltage_web.jpg" alt="empatage" id="empatage">
+                        <img src="public/images/etapes_brassage/Lempatage_web.jpg" alt="empatage" id="empatage">
                     </div>
                     <div>
                         <h2>empatage</h2>
@@ -48,11 +48,11 @@
                         <p>La filtration de la bière est une étape cruciale du processus de brassage qui permet de clarifier et de purifier la bière en éliminant les particules solides indésirables. En filtrant les parties solides, cela permet d’obtenir le moût clarifié.</p>
                     </div>
                     <div class="droite">
-                        <img src="public/images/etapes_brassage/Le_Maltage_web.jpg" alt="filtration" id="filtration">
+                        <img src="public/images/etapes_brassage/La_Filtration_web.jpg" alt="filtration" id="filtration">
                     </div>
                 </li>
                 <li> <div class="gauche">
-                        <img src="public/images/etapes_brassage/Le_Maltage_web.jpg" alt="ébulition" id="ebulition">
+                        <img src="public/images/etapes_brassage/Ebullition_web.jpg" alt="ébulition" id="ebulition">
                     </div>
                     <div>
                         <h2>ébulition</h2>
@@ -65,11 +65,11 @@
                         <p>Le refroidissement du moût dans le processus de brassage de la bière est une étape critique qui suit l'ébullition. Après la fin de l'ébullition, le moût doit être transféré et refroidi rapidement pour éviter les contaminations et favoriser la fermentation. Le contrôle précis de la température est essentiel pour garantir un environnement propice à l'action de la levure qui transformera les sucres en alcool et en dioxyde de carbone. .</p>
                     </div>
                     <div class="droite">
-                        <img src="public/images/etapes_brassage/Le_Maltage_web.jpg" alt="refroidissement" id="refroidissement">
+                        <img src="public/images/etapes_brassage/Refroidissement_web.jpg" alt="refroidissement" id="refroidissement">
                     </div>
                 </li>
                 <li> <div class="gauche">
-                        <img src="public/images/etapes_brassage/Le_Maltage_web.jpg" alt="fermentation" id="fermentation">
+                        <img src="public/images/etapes_brassage/Fermentation_web.jpg" alt="fermentation" id="fermentation">
                     </div>
                     <div>
                         <h2>fermentation</h2>
@@ -83,12 +83,12 @@
                         <p>Après la fermentation, la bière est transférée dans des cuves de maturation où elle repose à une température contrôlée pour développer ses saveurs, se clarifier et se stabiliser. Pendant cette période, la bière subit une clarification naturelle, une éventuelle carbonatation et des contrôles de qualité réguliers.</p>
                     </div>
                     <div class="droite">
-                        <img src="public/images/etapes_brassage/Le_Maltage_web.jpg" alt="maturation" id="maturation">
+                        <img src="public/images/etapes_brassage/Maturation_web.jpg" alt="maturation" id="maturation">
                     </div>
                 </li>
             </ul>
             <li> <div class="gauche">
-                    <img src="public/images/etapes_brassage/Le_Maltage_web.jpg" alt="embouteillage" id="embouteillage">
+                    <img src="public/images/etapes_brassage/Lembouteillage_web.jpg" alt="embouteillage" id="embouteillage">
                 </div>
                 <div>
                     <h2>embouteillage</h2>
