@@ -13,8 +13,7 @@ if (empty($_GET['num']) || !ctype_digit($_GET['num']) || $_GET['num'] < 1) {
     header('Location: accueil.php');
     exit;
 }
-//$numBeer = intval($_GET['num']);
-$numBeer = 1;
+$numBeer = intval($_GET['num']);
 
 require_once 'app/model/connexionBDD.php';
 require_once 'app/model/fiche.model.php';
