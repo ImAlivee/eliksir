@@ -11,7 +11,7 @@ include 'app/model/connexionBDD.php';
 //include ?
 $pdo = getDatabaseConnection();
 require_once 'app/model/produits.model.php';
-$infos = getInfo($pdo);
+$bieres = getInfo($pdo);
 
 
 $page_title = 'Produits';
