@@ -1,5 +1,5 @@
 <?php
-include_once 'app\model\members.php';
+include_once 'app/model/members.php';
 
 class MemberController {
     private $memberModel;
