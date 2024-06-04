@@ -1,6 +1,6 @@
 <ul class="liste-de-biere">
     <?php foreach ($bieres as $biere): ?>
-        <a href="fiche.php?num=<?= $biere['id_produit'] ?>">
+        <a href="fiche_produit.php?num=<?= $biere['id_produit'] ?>">
         <ul class="listebiere">
             <li>
                 <h2><?php echo $biere["nom_produit"]; ?></h2>
