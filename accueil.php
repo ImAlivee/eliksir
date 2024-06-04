@@ -19,3 +19,5 @@ $content = ob_get_clean();
 
 // Inclusion du layout pour obtenir la page HTML
 include 'app/view/common/layout.php';
+
+$bieres = getInfo($pdo);
