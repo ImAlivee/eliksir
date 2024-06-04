@@ -30,4 +30,5 @@ a{
 }
 .logo{
     margin: 1%;
+    flex-basis: 1%;
 }
