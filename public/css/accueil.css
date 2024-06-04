@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border: solid;
 }
 
 .nous img {
@@ -30,4 +31,16 @@ h1 {
 
 .etape {
     text-align: center;
+}
+
+.tous{
+    display: grid ;
+}
+
+.etape{
+    grid: 1/2;
+}
+
+.pi{
+    grid: 2/2;
 }

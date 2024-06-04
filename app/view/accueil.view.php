@@ -12,11 +12,14 @@
     <img src="public\images\img_brassage_site_web\Posts_bieres\seduction.jpg" alt="">
 </div>
 
+<section class="tous">
 <div class="etape">
     <h1>Etape</h1>
     <input class="bouton" type="button" value="En savoir plus">
-    <p>texte a description</p>
 </div>
+<p class="pi">texte a description</p>
+</section>
+
 
 
 <h2>Qui sommes nous ?</h2>
