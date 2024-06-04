@@ -7,6 +7,8 @@
 </div>
 
 <section class="suggestion">
+    <?php foreach ($bieres as $biere):?>
+        <?php $limit = 3;
 <div class="resilience">
 <img src="public\images\img_brassage_site_web\Posts_bieres\resilience.jpg" alt=""> 
 <p>type de biere</p>
@@ -14,20 +16,7 @@
 <p>Le nom</p>
 <p>pourcentage</p>
 </div>
-<div class="sante">
-<img src="public\images\img_brassage_site_web\Posts_bieres\sante.jpg" alt="">
-<p>type de biere</p>
-<p>Prix</p>
-<p>Le nom</p>
-<p>pourcentage</p>
-</div>
-<div class="seduction">
-<img src="public\images\img_brassage_site_web\Posts_bieres\seduction.jpg" alt="">
-<p>type de biere</p>
-<p>Prix</p>
-<p>Le nom</p>
-<p>pourcentage</p>
-</div>
+
 </section>
 
 
