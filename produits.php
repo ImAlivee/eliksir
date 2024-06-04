@@ -13,6 +13,11 @@ if(isset($_SESSION['message'])){
     $message = $_SESSION['message'];
     unset($_SESSION['message']);
 }
+//include ?
+$pdo = getDatabaseConnection();
+require_once 'app/model/produits.model.php';
+$infos = getInfo($pdo);
+
 
 $page_title = 'Produits';
 $css = 'style1.css';
@@ -24,3 +29,8 @@ $content = ob_get_clean();
 
 // Inclusion du layout pour obtenir la page HTML
 include 'app/view/common/layout.php';
+
+
+
+
+
