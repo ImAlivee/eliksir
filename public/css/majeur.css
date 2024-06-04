@@ -3,8 +3,12 @@
     margin: 0;
     padding: 0;
 }
-
-h1{
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+h1,h2{
     font-family: 'Montserrat', sans-serif;
     margin: auto;
     color: white;
@@ -13,6 +17,7 @@ h1{
 
 body{
     background-color: #1f1a03;
+    text-align: center;
 }
 
 a{
@@ -20,4 +25,9 @@ a{
     font-family: 'Montserrat',sans-serif;
     color: #1f1a03;
     background-color: white;
+    border-radius: 20px;
+    padding: 1%;
+}
+.logo{
+    margin: 1%;
 }
