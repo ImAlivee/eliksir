@@ -13,11 +13,13 @@ if (empty($_GET['num']) || !ctype_digit($_GET['num']) || $_GET['num'] < 1) {
     header('Location: accueil.php');
     exit;
 }
-$numBeer = intval($_GET['num']);
 
 require_once 'app/model/connexionBDD.php';
 require_once 'app/model/fiche.model.php';
-$biere = getBeer($numBeer,getDatabaseConnection());
+
+$numBeer = intval($_GET['num']);
+$pdo = getDatabaseConnection();
+$biere = getBeer($numBeer, $pdo);
 
 
 $page_title = 'Bière - ' . $biere['nom_produit'];
