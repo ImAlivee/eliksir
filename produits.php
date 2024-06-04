@@ -8,11 +8,6 @@ if(!isset($_SESSION['majeur'])) {
 // Récupération des données :
 include 'app/model/connexionBDD.php';
 
-var_dump($_SESSION);
-if(isset($_SESSION['message'])){
-    $message = $_SESSION['message'];
-    unset($_SESSION['message']);
-}
 //include ?
 $pdo = getDatabaseConnection();
 require_once 'app/model/produits.model.php';
