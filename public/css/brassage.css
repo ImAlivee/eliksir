@@ -30,3 +30,25 @@
 .etapes img{
     height: 200px;
 }
+
+.etapes {
+    background-color:#4a4427;
+}
+
+.sommaire {
+    background-color:#4a4427;
+}
+
+#titre{
+    font-size: 3rem;
+
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h1{
+    margin: auto;
+    padding : 50px;
+}

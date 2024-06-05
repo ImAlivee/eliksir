@@ -2,39 +2,27 @@
     <section class="grid">
         <div class="gridleft">
             <h2 id="child" class="line1">Produits</h2>
-            <?php if (isset($_SESSION['panier']) && count($_SESSION['panier']) > 0) : ?>
-                <?php foreach ($_SESSION['panier'] as $id => $quantity) : ?>
-                    <!--<div class="product-item">
-                        <img class="biere" src="/public/images/img_brassage_site_web/Posts_bieres/Heritage.jpg" alt="Produit">
-                        <p><?php echo $products[$id]; ?></p>
-                    </div>-->
-                <?php endforeach; ?>
-            <?php else : ?>
+            
+                        <div class="product-item">
+                        <img class="biere" src="/public/images/img_brassage_site_web/Posts_bieres/heritage.jpg" alt="Produit">
+                        <p> </p>
+                    </div>
+                    
                 <h2>Votre panier est vide.</h2>
-            <?php endif; ?>
+
         </div>
         <div class="gridright">
-            <?php if (isset($_SESSION['panier']) && count($_SESSION['panier']) > 0) : ?>
                 <h2 class="line1">Quantité</h2>
                 <h2 class="line1">Prix Total</h2>
-                <?php foreach ($_SESSION['panier'] as $id => $quantity) : ?>
                     <div class="product-quantity">
                         <form action="" method="get">
-                            <input type="number" name="quantity" value="<?php echo $quantity; ?>">
+                            <input type="number" name="quantity" value=" ">
                         </form>
-                        <p id="prix"><?php echo number_format($quantity * 11.00, 2); ?>€</p>
+                        <p id="prix">3 €</p>
                     </div>
-                <?php endforeach; ?>
+
                 <h2>Total du panier</h2>
-                <p id="total-prix"><?php echo number_format($totalItems * 11.00, 2); ?>€</p>
-            <?php endif; ?>
         </div>
     </section>
     <button onclick="window.location.href='index.php'">Poursuivre les achats</button>
     <button onclick="window.location.href='checkout.php'">Commander</button>
-   
-    <div class="suggestion">
-    <img id="photo" src="/public/images/img_brassage_site_web/Posts_bieres/Courage.jpg" alt="">
-    <h3>Nom de la biere</h3>
-    <p>Type de biere</p>
-</div>
