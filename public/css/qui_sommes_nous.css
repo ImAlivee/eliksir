@@ -2,6 +2,9 @@
 body {
     background-color: #ddd8bd;
     font-family: 'public/Aldo PC.ttf', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* General title style */
@@ -20,11 +23,18 @@ body {
     max-width: 100%;
     height: auto;
 }
+.gb-image{
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 100%;
+    height: 500px;
+}
 
 /* Introduction paragraph style */
 .paragraphe {
     font-family: 'Aldo';
-    margin: 10px;
+    margin: 10px 20px;
+    text-align: justify;
 }
 
 /* Team section styles */
@@ -33,7 +43,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
-    margin-bottom: 300px;
+    margin-bottom: 50px; /* Reduced margin */
 }
 
 .member {
@@ -85,6 +95,12 @@ body {
     font-size: 1em;
 }
 
+.storytelling {
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+    text-align: justify;
+}
+
 #alexis, #ange{
     height: 300px;
 }
@@ -94,8 +110,13 @@ body {
     gap: 20px; /* Adjust the gap as needed */
     margin-bottom: 20px;
 }
+
 @media only screen and (max-width: 768px) {
     .member {
-        width: 100%; /* Ajuste la largeur des membres de l'équipe pour les écrans plus petits */
+        width: 100%; /* Adjust the width of team members for smaller screens */
+    }
+    .image-alexis-ange {
+        flex-direction: column;
+        align-items: center;
     }
 }
