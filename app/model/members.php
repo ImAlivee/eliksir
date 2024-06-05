@@ -1,22 +1,24 @@
 <?php
-class Member {
-    private $conn;
-    private $table = 'membres';
+require_once 'app/model/connexionBDD.php';
 
-    public $id;
-    public $nom;
-    public $description;
-    public $image_default;
-    public $image_hover;
+function getMembre(int $idMembres, PDO $pdo): array {
+    $sql = "SELECT * FROM membres WHERE idMembres = :id";
+    $stmt = $pdo->prepare($sql);
+    $stmt->bindParam(':id', $idMembres, PDO::PARAM_INT);
+    $stmt->execute();
 
-    public function __construct() {
-        $this->conn = getDatabaseConnection();
+    $membres = $stmt->fetch(PDO::FETCH_ASSOC);
+
+    if (!$membres) {
+        $_SESSION['message'] = "Le membre " . $idMembres . " n'existe pas !";
+        header("Location: biere.php");
+        exit;
     }
+    return $membres;
+}
 
-    public function read() {
-        $query = "SELECT id, nom, description, image_default, image_hover FROM " . $this->table;
-        $stmt = $this->conn->prepare($query);
-        $stmt->execute();
-        return $stmt;
-    }
+function getMembres(PDO $pdo): array {
+    $sql = "SELECT * FROM membres";
+    $stmt = $pdo->query($sql);
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
 }

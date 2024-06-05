@@ -24,7 +24,7 @@ body {
 /* Introduction paragraph style */
 .paragraphe {
     font-family: 'Aldo';
-    margin: 20px;
+    margin: 10px;
 }
 
 /* Team section styles */
@@ -82,6 +82,7 @@ body {
     margin-top: 10px;
     font-size: 1.2em;
     color: #333;
+    font-size: 1em;
 }
 
 #alexis, #ange{
@@ -92,4 +93,9 @@ body {
     justify-content: center;
     gap: 20px; /* Adjust the gap as needed */
     margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .member {
+        width: 100%; /* Ajuste la largeur des membres de l'équipe pour les écrans plus petits */
+    }
 }

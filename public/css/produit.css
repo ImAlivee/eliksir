@@ -1,0 +1,8 @@
+.listebiere{
+    display: flex;
+}
+
+
+li{
+    background-color: black;
+}
