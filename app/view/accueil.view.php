@@ -7,34 +7,31 @@
 </div>
 
 <section class="suggestion">
-    <?php foreach ($bieres as $biere):?>
-        <?php $limit = 3;?>
-<div class="resilience">
-<img src="public\images\img_brassage_site_web\Posts_bieres\resilience.jpg" alt=""> 
-<p>type de biere</p>
-<p>Prix</p>
-<p>Le nom</p>
-<p>pourcentage</p>
-</div>
-
+    <?php foreach ($bieresAleatoires as $biere): ?>
+        <div class="resilience">
+            <img src="public/images/img_brassage_site_web/Posts_bieres/<?php echo isset($biere['image']) ? $biere['image'] : 'default.jpg'; ?>" alt="<?php echo isset($biere['nom']) ? $biere['nom'] : 'Nom '; ?>">
+            <p><?= isset($biere['nom_produit']) ? $biere['nom_produit'] : 'Nom' ?></p>
+            <p> <?= isset($biere['type']) ? $biere['type'] : 'Type inconnu' ?></p>
+            <p><?= isset($biere['pourcentage']) ? $biere['pourcentage'] : 'Pourcentage' ?>%</p>
+            <p><?= isset($biere['prix']) ? $biere['prix'] : 'Prix inconnu' ?> €</p>
+        </div>
+    <?php endforeach; ?>
 </section>
-
 
 <section class="tous">
-<div class="etape">
-    <h1>Etape</h1>
-    <input class="bouton" type="button" value="En savoir plus">
-</div>
-<p class="pi">texte a description</p>
+    <div class="etape">
+        <h1>Etape</h1>
+        <input class="bouton" type="button" value="En savoir plus">
+    </div>
+    <p class="pi">texte a description</p>
 </section>
-
 
 <h2>Qui sommes nous ?</h2>
 <section class="tout">
-<div class="nous">
-    <p>texte a description</p>
-    <img src="public\images\photos_groupe\photo_groupe.jpg" alt="">
-    <p>texte a description</p>
-</div>
-<input class="bouton2" type="button" value="En savoir plus">
+    <div class="nous">
+        <p>texte a description</p>
+        <img src="public/images/photos_groupe/photo_groupe.jpg" alt="">
+        <p>texte a description</p>
+    </div>
+    <input class="bouton2" type="button" value="En savoir plus">
 </section>

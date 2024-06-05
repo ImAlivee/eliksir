@@ -6,7 +6,7 @@ if(!isset($_SESSION['majeur'])) {
 } 
 
 $page_title = 'Produits';
-$css = 'produits.css';
+$css = 'produit.css';
 // Récupération des données :
 include 'app/model/connexionBDD.php';
 
