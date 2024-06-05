@@ -6,11 +6,11 @@ include 'app/model/members.php';
 
 // Récupérer la connexion à la base de données
 $pdo = getDatabaseConnection();
-
+/* Inutile pour ma fonction
 if (isset($_SESSION['message'])) {
     $message = $_SESSION['message'];
     unset($_SESSION['message']);
-}
+}*/
 
 $page_title = 'Qui sommes nous ?';
 $css = 'qui_sommes_nous.css';

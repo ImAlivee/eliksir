@@ -1,5 +1,32 @@
 .listebiere{
     display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    flex: 1 0 33.33%; /* Permet à chaque élément de prendre un tiers de la ligne */
+    box-sizing: border-box; /* Inclut padding et border dans la taille totale de l'élément */
+    padding: 10px; /* Espacement entre les éléments */
+  }
+
+
+
+.photodebut{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4%;
 }
+
+.titrestyle{
+    text-align: center;
+    padding-top: 4%;
+    font-size: 40px;
+    cursor: default;
+}
+
+.panier{
+
+}
+
 
 

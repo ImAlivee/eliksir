@@ -12,10 +12,15 @@ include 'app/model/connexionBDD.php';
 
 //include ?
 $pdo = getDatabaseConnection();
-require_once 'app/model/fonctions.model.php';
+include 'app/model/fonctions.model.php';
 $bieres = getInfo($pdo);
 
+$ids = array_keys ($_SESSION['panier']);
+$lines = getSpecificBeers($pdo, $ids);
 
+
+$page_title = 'Produits';
+$css = 'style1.css';
 
 // Génération et injection de la vue
 ob_start();

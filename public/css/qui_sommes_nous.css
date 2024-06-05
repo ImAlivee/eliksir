@@ -1,10 +1,10 @@
-/* Body background color */
+/* Couleur de fond du corps */
 body {
     background-color: #ddd8bd;
     font-family: 'public/Aldo PC.ttf', sans-serif;
 }
 
-/* General title style */
+/* Style général des titres */
 .titre {
     font-family: 'Aldo';
     color: #c88a36;
@@ -13,7 +13,7 @@ body {
     font-size: 40px;
 }
 
-/* Introduction image style */
+/* Style de l'image d'introduction */
 .intro-image {
     display: block;
     margin: 0 auto 20px auto;
@@ -21,13 +21,13 @@ body {
     height: auto;
 }
 
-/* Introduction paragraph style */
+/* Style du paragraphe d'introduction */
 .paragraphe {
     font-family: 'Aldo';
     margin: 10px;
 }
 
-/* Team section styles */
+/* Styles de la section de l'équipe */
 .team {
     display: flex;
     flex-wrap: wrap;
@@ -47,7 +47,7 @@ body {
     position: relative;
     width: 100%;
     padding-bottom: 100%; /* Aspect ratio 1:1 */
-    overflow: hidden; /* Ensure overflow is hidden to crop the image */
+    overflow: hidden; /* Assure que le débordement est caché pour recadrer l'image */
 }
 
 .image-container img {
@@ -91,11 +91,41 @@ body {
 .image-alexis-ange{
     display: flex;
     justify-content: center;
-    gap: 20px; /* Adjust the gap as needed */
+    gap: 20px; /* Ajustez l'espace selon vos besoins */
     margin-bottom: 20px;
 }
+
+/* Media queries pour rendre le site responsive */
 @media only screen and (max-width: 768px) {
     .member {
         width: 100%; /* Ajuste la largeur des membres de l'équipe pour les écrans plus petits */
+    }
+
+    .team {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-alexis-ange {
+        flex-direction: column;
+    }
+
+    #alexis, #ange {
+        height: auto;
+        width: 80%; /* Ajustez la largeur selon vos besoins */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .titre {
+        font-size: 30px;
+    }
+
+    .paragraphe {
+        font-size: 14px;
+    }
+
+    .image-alexis-ange {
+        gap: 10px;
     }
 }
