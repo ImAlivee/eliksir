@@ -1,22 +1,22 @@
 <?php
 require_once 'app/model/connexionBDD.php';
-
-function getMembre(int $idMembres, PDO $pdo): array {
+//Renvoie un seul membre dont l'ID a été fourni
+/*function getMembre(int $idMembre, PDO $pdo): array {
     $sql = "SELECT * FROM membres WHERE idMembres = :id";
     $stmt = $pdo->prepare($sql);
-    $stmt->bindParam(':id', $idMembres, PDO::PARAM_INT);
+    $stmt->bindParam(':id', $idMembre, PDO::PARAM_INT);
     $stmt->execute();
 
-    $membres = $stmt->fetch(PDO::FETCH_ASSOC);
+    $membre = $stmt->fetch(PDO::FETCH_ASSOC);
 
-    if (!$membres) {
-        $_SESSION['message'] = "Le membre " . $idMembres . " n'existe pas !";
+    if (!$membre) {
+        $_SESSION['message'] = "Le membre " . $idMembre . " n'existe pas !";
         header("Location: biere.php");
         exit;
     }
-    return $membres;
-}
-
+    return $membre;
+}*/
+//Renvoie la liste de tous les membres
 function getMembres(PDO $pdo): array {
     $sql = "SELECT * FROM membres";
     $stmt = $pdo->query($sql);
