@@ -5,6 +5,8 @@ if(!isset($_SESSION['majeur'])) {
     exit;
 } 
 
+$page_title = 'Produits';
+$css = 'produits.css';
 // Récupération des données :
 include 'app/model/connexionBDD.php';
 
@@ -13,8 +15,7 @@ $pdo = getDatabaseConnection();
 require_once 'app/model/fonctions.model.php';
 $bieres = getInfo($pdo);
 
-$page_title = 'Produits';
-$css = 'style1.css';
+
 
 // Génération et injection de la vue
 ob_start();
