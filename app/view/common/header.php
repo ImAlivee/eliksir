@@ -20,7 +20,7 @@
             <a href="brassage.php"><li>Le brassage</li></a>
             <a href="qui_somme_nous.php"><li>Qui sommes nous ?</li></a>
             <a href="contact.php"><li>Contacts</li></a>
-            <a href="panier.php"><li><img id="bouton_panier" src="public/images/Panier.png" alt=""></li></a>
+            <a href="panier.php"><li><img id="bouton_panier" src="public/images/Panier.png" alt=""><?=array_sum($_SESSION['panier'])?></li></a>
         </ul>
     </nav>
 <main>

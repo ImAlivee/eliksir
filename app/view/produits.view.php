@@ -10,7 +10,7 @@
                 <h3><?php echo $biere["pourcentage_alcool"]; ?></h3>
             </li>
                 <li>
-                <a href=" ">Ajouter au panier</a>
+                <a href="ajouter_panier.php?id= <?php echo $biere["id_produit"]; ?>">Ajouter au panier</a>
             </li>
     <?php endforeach; ?>
 </ul>
