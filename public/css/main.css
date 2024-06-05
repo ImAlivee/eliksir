@@ -135,6 +135,7 @@ footer {
 nav {
     background-color: #1f1a03;
     padding: 20px; /* Adjusted padding for better spacing */
+
 }
 
 .nav-container {
@@ -229,4 +230,7 @@ nav ul li ul li:hover {
 
 a {
     text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+    
 }
