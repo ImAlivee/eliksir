@@ -24,7 +24,7 @@
 </section>
 
 <h1 class="titre">Notre Équipe de GB</h1>
-<img src="public\images\photos_groupe\photo_gb.jpg" alt="Équipe Eliksir GB" class="gb-image">
+<img src="public\images\photos_groupe\photo_gb.jpg" alt="Équipe Eliksir GB" class="intro-image">
 
 
 <section class="storytelling">

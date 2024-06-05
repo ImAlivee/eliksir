@@ -17,8 +17,6 @@ if (empty($_GET['num']) || !ctype_digit($_GET['num']) || $_GET['num'] < 1) {
     exit;
 }
 
-
-
 $numBeer = intval($_GET['num']);
 $biere = getBeer($numBeer,getDatabaseConnection());
 

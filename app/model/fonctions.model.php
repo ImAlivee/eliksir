@@ -1,13 +1,15 @@
 <?php
 
-function getSpecificBeers (PDO $pdo, $ids){
+function getSpecificBeers (PDO $pdo, $ids) {
     
-    $list = join(",", $ids);
+    $list = join(',', $ids);
     $sql = "SELECT * FROM beers WHERE id IN (" . $list . ")";
-    $stmt = $pdo->prepare($sql);
-    $SpecificBeers = $stmt->fetchAll();
     
-    return $SpecificBeers;
+    $stmt = $pdo->prepare($sql);
+
+    $specificBeers = $stmt->fetchAll();
+
+    return $specificBeers;
 
 }
 
