@@ -8,7 +8,7 @@
 
 <section class="suggestion">
     <?php foreach ($bieresAleatoires as $biere): ?>
-        <div class="resilience">
+        <div class="biere">
             <img src="public/images/img_brassage_site_web/Posts_bieres/<?php echo isset($biere['image']) ? $biere['image'] : 'default.jpg'; ?>" alt="<?php echo isset($biere['nom']) ? $biere['nom'] : 'Nom '; ?>">
             <p><?= isset($biere['nom_produit']) ? $biere['nom_produit'] : 'Nom' ?></p>
             <p> <?= isset($biere['type']) ? $biere['type'] : 'Type inconnu' ?></p>

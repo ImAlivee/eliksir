@@ -21,6 +21,8 @@
     align-items: center;
     background-color: #ceb678;
     border: solid;
+    justify-content: space-evenly;
+    padding: 1%;
 }
 
 .heritage p {
@@ -44,11 +46,12 @@ h1 {
     align-items: center;
 }
 
-
-.suggestion img {
-    display: flex;
-    align-items: center;
-    width: 60%;
+.biere {
     text-align: center;
+    width: 20%;
 }
 
+.suggestion img {
+    width: 80%;
+    border-radius: 50px;
+}
