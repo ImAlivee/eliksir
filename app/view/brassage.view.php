@@ -87,7 +87,8 @@
                     </div>
                 </li>
             </ul>
-            <li> <div class="gauche">
+            <li> 
+                <div class="gauche">
                     <img src="public/images/etapes_brassage/Lembouteillage_web.jpg" alt="embouteillage" id="embouteillage">
                 </div>
                 <div>

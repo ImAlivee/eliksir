@@ -35,6 +35,17 @@
     background-color:#4a4427;
 }
 
+.etapes h2 {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    color: rgb(209, 209, 209)
+}
+
+.etapes p{
+    text-transform: uppercase;
+    color: rgb(209, 209, 209)
+}
+
 .sommaire {
     background-color:#4a4427;
 }
@@ -49,7 +60,7 @@ h2{
 }
 
 h1{
-    margin: auto;
+    text-align: center;
     padding : 50px;
     font-family: 'Aldo';
 }
