@@ -55,7 +55,7 @@
                         <img src="public/images/etapes_brassage/Ebullition_web.jpg" alt="ébulition" id="ebulition">
                     </div>
                     <div>
-                        <h2> Ébulition</h2>
+                        <h2>Ébulition</h2>
                         <p>L'ébullition dans le processus de brassage de la bière est une étape essentielle au cours de laquelle le moût est porté à ébullition pendant 60 à 90 minutes. Pendant cette phase, les houblons sont ajoutés pour apporter l'amertume, les arômes et les saveurs caractéristiques à la bière. Cette étape permet également la stérilisation du moût. Une fois l'ébullition terminée, le moût est refroidi rapidement pour passer à la prochaine étape du processus de brassage.</p>
                     </div>
                 </li>
@@ -86,7 +86,6 @@
                         <img src="public/images/etapes_brassage/Maturation_web.jpg" alt="maturation" id="maturation">
                     </div>
                 </li>
-            </ul>
             <li> 
                 <div class="gauche">
                     <img src="public/images/etapes_brassage/Lembouteillage_web.jpg" alt="embouteillage" id="embouteillage">
@@ -95,8 +94,7 @@
                     <h2>Embouteillage</h2>
                     <p>L'embouteillage de la bière est la dernière étape du processus de brassage, impliquant le lavage des bouteilles, l'ajout de sucre pour la refermentation, le remplissage précis des bouteilles, la capsulation hermétique, l'étiquetage et le conditionnement. Ces étapes garantissent la qualité, la fraîcheur et la sécurité de la bière avant qu'elle ne soit prête à être distribuée et dégustée par les consommateurs</p>
                 </div>
-            </div>
-            </li>
-           
+                </li>
+            </ul>
         </section>
 

@@ -1,4 +1,4 @@
-*{
+h1, .sommaire, .etapes{
     background-color: #1f1a03;
 }
 
@@ -28,6 +28,10 @@ ul{
 }
 .droite{
     padding: 1%;
+}
+
+.gauche {
+    padding : 1%;
 }
 
 #bouton_panier{
@@ -66,4 +70,9 @@ h1{
     padding : 50px;
     font-family: 'Aldo';
     color: white;
+}
+
+.etapes{
+    margin-bottom: 5%;
+    justify-content: flex-start;
 }
