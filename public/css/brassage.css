@@ -6,7 +6,7 @@
 #titre{
     grid-column: 1/4;
     grid-row: 1/1;
-
+    color: aliceblue;
 }
 .etapes ul li{
     display: flex;
@@ -51,4 +51,5 @@ h2{
 h1{
     margin: auto;
     padding : 50px;
+    font-family: 'Aldo';
 }

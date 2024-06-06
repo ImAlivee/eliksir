@@ -1,7 +1,6 @@
 main{
     margin: 2%;
 }
-
 .ligne1{
     display:flex;
     justify-content: space-around;
@@ -21,9 +20,11 @@ main{
     font-size: 3em;
 }
 
-img{
+.ligne2 img{
     width: 100%;
     margin-right: 5%;
+    border-radius: 10px;
+
 } 
 
 .enfant:nth-of-type(1){
@@ -37,6 +38,9 @@ img{
     justify-content: space-around;
     text-align: left;
     align-items: center;
+    background-color: #ceb678;
+    margin: 1%;
+    border-radius: 20px;
 }
 
 #quantite{
@@ -58,4 +62,9 @@ img{
 }
 .sommaire img{
     height:160px;
+}
+
+h1{
+    font-family: 'Aldo';
+    font-size: 3.2em;
 }

@@ -8,6 +8,17 @@ form {
     background-color: #f9f9f9;
 }
 
+/*style du titre*/
+.titrestyle{
+    text-align: center;
+    padding-top: 4%;
+    font-size: 40px;
+    cursor: default;
+    color: #ceb678;
+    font-family: 'Aldo';
+}
+
+
 /* Style des groupes de formulaire */
 .form-group {
     margin-bottom: 15px;
@@ -67,4 +78,9 @@ label {
 }
 main{
     background: linear-gradient(#1f1a03, #4a4427);
+}
+
+#name-label, #firstname-label, #email-label, .form-group  {
+    font-family: Aldo;
+    font-size: 1.2em;
 }

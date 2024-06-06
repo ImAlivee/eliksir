@@ -1,5 +1,4 @@
-<div class="main">
-    <img  class="photodebut" src="public/images/logos/logo_eliksir_v3_blanc.png" >
+<section class="main">
 
 <div>
     <h2 class="titrestyle">Tous nos produits</h2>
@@ -21,4 +20,4 @@
             </li>
     <?php endforeach; ?>
 </ul>
-</div>
+    </section>

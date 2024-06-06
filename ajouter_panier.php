@@ -25,8 +25,6 @@ if (isset($_GET['id'])) {
         
         if (!$produit) {
             die("Ce produit n'existe pas");
-        } else {
-            // Votre code pour traiter le produit
         }
     } catch (PDOException $e) {
         die("Erreur lors de l'exécution de la requête : " . $e->getMessage());
@@ -36,7 +34,7 @@ if (isset($_GET['id'])) {
         $_SESSION['panier'][$id] = 1;  // Initialiser la quantité à 1 si le produit n'existe pas dans le panier
     } else {
         $_SESSION['panier'][$id]++;  // Incrémenter la quantité si le produit existe déjà dans le panier
-        header("location:produits.php");
     }
-
+    header("location:produits.php");  // Redirect after adding to the cart
 }
+?>

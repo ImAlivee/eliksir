@@ -10,6 +10,7 @@ h1 {
     color: #ececec;
     margin: 20px 0;
     font-family: Aldo;
+    margin:80px;
 }
 
 h2 {
@@ -35,7 +36,7 @@ h2 {
 }
 
 .heritage img {
-    width: 50%;
+    width: 30%;
     border-radius: 10px;
     border: solid 10px;
     border-color: #ceb678;
@@ -136,7 +137,7 @@ h2 {
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s;
-    margin-top: 20px; /* Ajout de marges pour espacer les boutons */
+    margin: 20px; /* Ajout de marges pour espacer les boutons */
 }
 
 .bouton:hover, .bouton2:hover {
@@ -159,6 +160,7 @@ h2 {
     font-size: 1.2em;
     margin: 20px 0;
     color: white;
+    padding: 50px;
 }
 
 .sto{
@@ -185,4 +187,17 @@ h2 {
     width: 45%; /* Largeur des vidéos */
     height: 300px; /* Hauteur des vidéos */
     margin-bottom: 20px; /* Espacement entre les vidéos */
+}
+
+/* Ajout de la classe pour centrer la ligne */
+.center-line-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* Ajustez selon vos besoins */
+}
+
+.center-line {
+    width: 80%; /* Ajustez la largeur selon vos besoins */
+    border-bottom: 1px solid white;
 }
