@@ -13,6 +13,7 @@
 
 .nous img {
     width: 30%;
+    justify-content: center;
 }
 
 .suggestion {
@@ -53,5 +54,4 @@ h1 {
 
 .suggestion img {
     width: 80%;
-    border-radius: 50px;
 }
