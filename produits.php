@@ -10,6 +10,11 @@ $css = 'produit.css';
 // Récupération des données :
 include 'app/model/connexionBDD.php';
 
+
+if (!isset($_SESSION['panier'])) {
+    $_SESSION['panier'] = [];
+}
+
 //include ?
 $pdo = getDatabaseConnection();
 include 'app/model/fonctions.model.php';
