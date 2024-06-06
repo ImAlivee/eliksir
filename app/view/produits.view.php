@@ -14,14 +14,6 @@
                 <a href="fiche_produit.php?num=<?= $biere['id_produit']; ?>">
                 <h2 ><?php echo $biere["nom_produit"]; ?></h2>
                 <img src="public\images\img_brassage_site_web\Posts_bieres\<?php echo $biere["image"];?>">
-<<<<<<< HEAD
-                <h3 ><?php echo $biere["prix"]; ?></h3>
-                <h3 ><?php echo $biere["type"]; ?></h3>
-                <h3 ><?php echo $biere["pourcentage_alcool"]; ?></h3>
-                <a href=" ">Ajouter au panier</a>
-
-            </ul>
-=======
                 <h3><?php echo $biere["prix"]; ?></h3>
                 <h3><?php echo $biere["type"]; ?></h3>
                 <h3><?php echo $biere["pourcentage_alcool"]; ?></h3>
@@ -29,5 +21,4 @@
                 <li>
                 <a href="ajouter_panier.php?id= <?php echo $biere["id_produit"]; ?>">Ajouter au panier</a>
             </li>
->>>>>>> 825aa90b226a8fd0f17cd2887730bdff1d12dbf1
     <?php endforeach; ?>
