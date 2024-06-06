@@ -1,9 +1,13 @@
-h1, .sommaire, .etapes{
+*{
     background-color: #1f1a03;
 }
 
 ul{
     margin-right: 10px;
+}
+
+.sommaire{
+    margin-left:1%;
 }
 .sommaire ul{
     display: grid;
@@ -52,13 +56,14 @@ ul{
 }
 
 .etapes p{
-    text-transform: uppercase;
-    color: rgb(209, 209, 209)
+    color: rgb(209, 209, 209);
+    font-family: 'Aldo',sans-serif;
+    font-size: 1.5rem;
 }
 
 #titre{
-    font-size: 2rem;
-
+    font-size: 2.5rem;
+    align-self: center;
 }
 
 h2{

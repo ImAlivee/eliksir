@@ -8,8 +8,8 @@
     <?php 
     $ids = array_keys($_SESSION['panier']);
     if (empty($ids)) {
-        echo "Votre panier est vide";
-    } else {
+        ?><p id="vide"><? echo "Votre panier est vide";?></p>
+    <?} else {
         try {
             // Utilisation de PDO pour récupérer les produits
             $placeholders = implode(',', array_fill(0, count($ids), '?'));

@@ -3,14 +3,14 @@
         <ul>
             <li id="titre">Les différentes étapes</li>
             <li><a href="#maltage"><img class="etapes_brassage" src="public/images/etapes_brassage/Le_Maltage_web.jpg" alt="étape 1" ></a></li>
-            <li><a href="#brassage"><img class="etapes_brassage" src="public/images/etapes_brassage/Le_Brassage_web.jpg" alt="étape 2"></li>
-            <li><a href="#empatage"><img class="etapes_brassage" src="public/images/etapes_brassage/Lempatage_web.jpg" alt="étape 3"></li>
-            <li><a href="#filtration"><img class="etapes_brassage" src="public/images/etapes_brassage/La_Filtration_web.jpg" alt="étape 4"></li>
-            <li><a href="#ebulition"><img class="etapes_brassage" src="public/images/etapes_brassage/Ebullition_web.jpg" alt="étape 5"></li>
-            <li><a href="#refroidissement"><img class="etapes_brassage" src="public/images/etapes_brassage/Refroidissement_web.jpg" alt="étape 6"></li>
-            <li><a href="#fermentation"><img class="etapes_brassage" src="public/images/etapes_brassage/Fermentation_web.jpg" alt="étape 7"></li>
-            <li><a href="#maturation"><img class="etapes_brassage" src="public/images/etapes_brassage/Maturation_web.jpg" alt="étape 8"></li>
-            <li><a href="#embouteillage"><img class="etapes_brassage" src="public/images/etapes_brassage/Lembouteillage_web.jpg" alt="étape 9"></li>
+            <li><a href="#brassage"><img class="etapes_brassage" src="public/images/etapes_brassage/Le_Brassage_web.jpg" alt="étape 2"></a></li>
+            <li><a href="#empatage"><img class="etapes_brassage" src="public/images/etapes_brassage/Lempatage_web.jpg" alt="étape 3"></a></li>
+            <li><a href="#filtration"><img class="etapes_brassage" src="public/images/etapes_brassage/La_Filtration_web.jpg" alt="étape 4"></a></li>
+            <li><a href="#ebulition"><img class="etapes_brassage" src="public/images/etapes_brassage/Ebullition_web.jpg" alt="étape 5"></a></li>
+            <li><a href="#refroidissement"><img class="etapes_brassage" src="public/images/etapes_brassage/Refroidissement_web.jpg" alt="étape 6"></a></li>
+            <li><a href="#fermentation"><img class="etapes_brassage" src="public/images/etapes_brassage/Fermentation_web.jpg" alt="étape 7"></a></li>
+            <li><a href="#maturation"><img class="etapes_brassage" src="public/images/etapes_brassage/Maturation_web.jpg" alt="étape 8"></a></li>
+            <li><a href="#embouteillage"><img class="etapes_brassage" src="public/images/etapes_brassage/Lembouteillage_web.jpg" alt="étape 9"></a></li>
         </ul>
         </section>
         <section class="etapes">
@@ -94,7 +94,7 @@
                     <h2>Embouteillage</h2>
                     <p>L'embouteillage de la bière est la dernière étape du processus de brassage, impliquant le lavage des bouteilles, l'ajout de sucre pour la refermentation, le remplissage précis des bouteilles, la capsulation hermétique, l'étiquetage et le conditionnement. Ces étapes garantissent la qualité, la fraîcheur et la sécurité de la bière avant qu'elle ne soit prête à être distribuée et dégustée par les consommateurs</p>
                 </div>
-                </li>
+            </li>
             </ul>
         </section>
 
