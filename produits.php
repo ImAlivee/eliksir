@@ -17,6 +17,7 @@ if (!isset($_SESSION['panier'])) {
 
 //include ?
 $pdo = getDatabaseConnection();
+
 include 'app/model/fonctions.model.php';
 $bieres = getInfo($pdo);
 

@@ -12,6 +12,11 @@ body {
     background-color: #fff;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 /* Navigation styles */
 nav {
     background-color: #1f1a03;

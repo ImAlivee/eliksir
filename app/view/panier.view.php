@@ -25,14 +25,16 @@
                 $totalPanier += $prixTotalProduit;
     ?>
     <div class="ligne2">
-        <div class="product-item">
-            <img class="biere" src="public/images/img_brassage_site_web/Posts_bieres/<?php echo htmlspecialchars($produit['image']); ?>" alt="Produit">
-            <p><?php echo htmlspecialchars($produit['nom_produit']); ?></p>
-        </div>
-        <div>
+        <img class="enfant" id="biere" src="public/images/img_brassage_site_web/Posts_bieres/<?php echo htmlspecialchars($produit['image']); ?>" alt="Produit">
+        <p class="enfant"><?php echo htmlspecialchars($produit['nom_produit']); ?></p>
+        <div id="quantite" class="enfant">
+            <!--<img src="public\images\panier\plus.png" alt="ajouter" class="modifie">-->
+            <a>+</a>
             <p><?php echo $quantite; ?></p>
+            <a>-</a>
+            <!--<img src="public\images\panier\moins.png" alt="retirer" class="modifie">-->
         </div>
-        <p id="prix"><?php echo $prixTotalProduit; ?> €</p>
+        <p class="enfant" id="prix"><?php echo $prixTotalProduit;?> €</p>
     </div>
     <?php endforeach; ?>
     <h2 class="total">Total du panier</h2>
@@ -41,7 +43,7 @@
         } catch (PDOException $e) {
             echo "Erreur lors de l'exécution de la requête : " . $e->getMessage();
         }
-    } // Fermer le else
+    }
     ?>
 </section>
 <button onclick="window.location.href='produits.php'">Poursuivre les achats</button>
