@@ -17,6 +17,12 @@ a{
     color: black;
 }
 
+button{
+    background-color: #c88a36;
+    border-radius: 10px;
+    border: 0ch;
+}
+
 /* Navigation styles */
 nav {
     background-color: #1f1a03;
