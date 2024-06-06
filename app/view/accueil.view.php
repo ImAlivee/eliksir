@@ -1,4 +1,10 @@
 <h1 class="titre">À la une</h1>
+
+<h1>Vidéos</h1>
+<div class="videos">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kxOFqVVKtsw" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jxR9PJA_xfI?si=WwbJRWA2OlYCVIN7" frameborder="0" allowfullscreen></iframe>
+</div>
 <div class="heritage">
     <img src="public/images/img_brassage_site_web/Posts_bieres/Heritage.jpg" alt="">
     <p>Günther a reçu un carnet de son héritage nordique. Dans celui-ci,
@@ -6,8 +12,6 @@
         Voulant partager son savoir, il créa Elixir afin que chacun puisse retrouver
         en soi les qualités que voulaient transmettre ces ancêtres !</p>
 </div>
-
-
 
 <h1>Suggestions</h1>
 <h2>Vous pourriez aimer aussi</h2>
@@ -43,3 +47,5 @@
     </div>
     <a href="qui_somme_nous.php"><input class="bouton2" type="button" value="En savoir plus"></a>
 </section>
+
+
