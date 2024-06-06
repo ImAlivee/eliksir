@@ -1,3 +1,6 @@
+<div>
+    <h2 class="titrestyle">Nous contacter</h2>
+</div>
 <form action="post">
     <div class="form-group">
         <label id="name-label" for="nom">Nom</label>

@@ -27,18 +27,18 @@
     <div class="ligne2">
         <div class="enfant" >
             <a href="fiche_produit.php?num=<?= $produit['id_produit']; ?>">
-            <img  id="biere" src="public/images/img_brassage_site_web/Posts_bieres/<?php echo htmlspecialchars($produit['image']); ?>" alt="Produit">
-        <div class="infos">
-            <p><?php echo htmlspecialchars($produit['nom_produit']); ?></p>
-            <p><?php echo htmlspecialchars($produit['prix']); ?>€</p>
-            <p><?php echo htmlspecialchars($produit['type']);?><br> <?php echo htmlspecialchars($produit['pourcentage_alcool']); ?></p>
-        </div>
+                <img id="biere" src="public/images/img_brassage_site_web/Posts_bieres/<?php echo htmlspecialchars($produit['image']); ?>" alt="Produit">
+            </a>
+            <div class="infos">
+                <p><?php echo htmlspecialchars($produit['nom_produit']); ?></p>
+                <p><?php echo htmlspecialchars($produit['prix']); ?>€</p>
+                <p><?php echo htmlspecialchars($produit['type']);?><br> <?php echo htmlspecialchars($produit['pourcentage_alcool']); ?></p>
+            </div>
         </div>
         <div id="quantite" class="enfant">
-            <!--<img src="public\images\panier\plus.png" alt="ajouter" class="modifie">-->
-            <p id=""><a href="?action=plus&id=<?php echo $produit['id_produit']; ?>" id="plus">+</a><?php echo $quantite; ?><a href="?action=plus&id=<?php echo $produit['id_produit']; ?>" id="moins">-</a></p>
-            
-            <!--<img src="public\images\panier\moins.png" alt="retirer" class="modifie">-->
+            <a href="update_panier.php?action=plus&id=<?php echo $produit['id_produit']; ?>" id="plus">+</a>
+            <p id=""><?php echo $quantite; ?></p>
+            <a href="update_panier.php?action=moins&id=<?php echo $produit['id_produit']; ?>" id="moins">-</a>
         </div>
         <p class="enfant" id="prix"><?php echo $prixTotalProduit;?> €</p>
     </div>
