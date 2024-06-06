@@ -157,10 +157,10 @@ nav ul li:hover {
     }
 }
 
-/* Footer styles (no changes to ensure it remains intact) */
+/* Footer styles */
 footer {
     background-color: #1f1a03;
-    padding: 20px;
+    padding: 30px 20px;
     color: white;
     text-align: center;
 }
@@ -169,46 +169,56 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
+    flex-wrap: wrap;
 }
 
 .brasserie {
+    flex-basis: 100%; /* Prendre toute la largeur sur une ligne */
+}
+
+.brasserie-name {
     font-family: 'Aldo', sans-serif;
-    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
 }
 
-.map-container {
-    margin-top: 20px;
-}
-
-.map-container iframe {
-    width: 300px;
-    height: 200px;
+.brasserie-address {
+    margin-bottom: 20px;
+    font-size: 18px;
 }
 
 .sections {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    flex-basis: 100%; /* Prendre toute la largeur sur une ligne */
 }
 
-.sections ul {
+.section-list {
     list-style-type: none;
-    margin: 20px 0;
+    margin: 0;
+    padding: 0;
 }
 
-.sections ul li {
+.section-list li {
     margin-bottom: 10px;
-    text-align: center;
 }
 
-.sections ul li a {
+.section-link {
     color: white;
     text-decoration: none;
     transition: color 0.3s;
-    font-family: montserrat extrabold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
-.sections ul li a:hover {
+.section-link:hover {
     color: #c88a36;
+}
+
+/* Styles pour la mention de copyright */
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.7;
+    flex-basis: 100%; /* Prendre toute la largeur sur une ligne */
 }
