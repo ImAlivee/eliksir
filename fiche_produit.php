@@ -16,6 +16,28 @@ if (empty($_GET['num']) || !ctype_digit($_GET['num']) || $_GET['num'] < 1) {
     exit;
 }
 
+
+if (!isset($_SESSION['panier'])) {
+    $_SESSION['panier'] = [];
+}
+
+
+include 'app/model/fonctions.model.php';
+
+$bieres = getInfo($pdo);
+
+// Sélection aléatoire de 3 bières
+$nombreDeBieres = 3;
+if (count($bieres) > $nombreDeBieres) {
+    $clesAleatoires = array_rand($bieres, $nombreDeBieres);
+    $bieresAleatoires = [];
+    foreach ($clesAleatoires as $cle) {
+        $bieresAleatoires[] = $bieres[$cle];
+    }
+} else {
+    $bieresAleatoires = $bieres;
+}
+
 $numBeer = intval($_GET['num']);
 $biere = getBeer($numBeer,$pdo);
 

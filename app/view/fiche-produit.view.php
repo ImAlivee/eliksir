@@ -33,10 +33,22 @@
     </div>
     <div class="achat">
         <p class="prix">3,15€</p>
-        <form>
-        <button action="submit" method="get">Ajouter au panier</button>
-        </form>
+        <a href="ajouter_panier.php?id= <?php echo $biere["id_produit"]; ?>">Ajouter au panier</a>
     </div>
 
+<h1>Suggestions</h1>
+<h2>Vous pourriez aimer aussi</h2>
+<section class="suggestion">
+    <?php foreach ($bieresAleatoires as $biere): ?>
+        <div class="biere">
+            <img src="public/images/img_brassage_site_web/Posts_bieres/<?php echo isset($biere['image']) ? $biere['image'] : 'default.jpg'; ?>"
+                alt="<?php echo isset($biere['nom']) ? $biere['nom'] : 'Nom '; ?>">
+            <p class="nom"><?= isset($biere['nom_produit']) ? $biere['nom_produit'] : 'Nom' ?></p>
+            <p class="type"><?= isset($biere['type']) ? $biere['type'] : 'Type inconnu' ?></p>
+            <p class="pourcentage"><?= isset($biere['pourcentage_alcool']) ? $biere['pourcentage_alcool'] : 'Pourcentage' ?>%</p>
+            <p class="prix"><?= isset($biere['prix']) ? $biere['prix'] : 'Prix inconnu' ?> €</p>
+        </div>
+    <?php endforeach; ?>
+</section>
 
 </section>
