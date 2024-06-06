@@ -160,7 +160,6 @@ h2 {
     font-size: 1.2em;
     margin: 20px 0;
     color: white;
-    border-bottom: solid;
     padding: 50px;
 }
 
@@ -188,4 +187,17 @@ h2 {
     width: 45%; /* Largeur des vidéos */
     height: 300px; /* Hauteur des vidéos */
     margin-bottom: 20px; /* Espacement entre les vidéos */
+}
+
+/* Ajout de la classe pour centrer la ligne */
+.center-line-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* Ajustez selon vos besoins */
+}
+
+.center-line {
+    width: 80%; /* Ajustez la largeur selon vos besoins */
+    border-bottom: 1px solid white;
 }
