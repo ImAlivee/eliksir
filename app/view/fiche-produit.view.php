@@ -8,7 +8,7 @@
                 $photo = 'defaut.png';
             }
             ?>
-            <img src="public/images/baniere/<?= $biere['image_fond'] ?>" alt="photo de la bannière de la bière <?= $biere['nom_produit'] ?>">
+            <img id="fond" src="public/images/baniere/<?= $biere['image_fond'] ?>" alt="photo de la bannière de la bière <?= $biere['nom_produit'] ?>">
     </div>
     <figure class="image">
         <?php
@@ -18,7 +18,7 @@
                 $photo = 'defaut.png';
             }
             ?>
-            <img src="public\images\img_brassage_site_web\Posts_bieres\<?php echo $biere["image"];?>">
+            <img id="biere" src="public\images\img_brassage_site_web\Posts_bieres\<?php echo $biere["image"];?>">
         </figure>
     </figure>
 </section>
