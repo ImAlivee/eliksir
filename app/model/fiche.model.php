@@ -6,8 +6,8 @@ function getBeer(int $numBeer, PDO $pdo): array {
     $stmt -> bindParam(':id', $numBeer, PDO::PARAM_INT);
     $stmt -> execute();
     if (!$biere = $stmt -> fetch()) {
-        $_SESSION['message'] = "L'identifiant de l'étudiant n'est pas correct.";
-        header('Location: accueil.php');
+        $_SESSION['message'] = "L'identifiant de la bière n'est pas correct.";
+        header('Location: produits.php');
         exit;
 }
 
