@@ -1,4 +1,4 @@
-h1, .sommaire{
+h1, .sommaire, .etapes{
     background-color: #1f1a03;
 }
 
@@ -70,4 +70,9 @@ h1{
     padding : 50px;
     font-family: 'Aldo';
     color: white;
+}
+
+.etapes{
+    margin-bottom: 5%;
+    justify-content: flex-start;
 }
