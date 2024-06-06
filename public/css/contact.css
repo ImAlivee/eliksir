@@ -68,3 +68,8 @@ label {
 main{
     background: linear-gradient(#1f1a03, #4a4427);
 }
+
+#name-label, #firstname-label, #email-label, .form-group  {
+    font-family: Aldo;
+    font-size: 1.2em;
+}

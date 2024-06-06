@@ -10,7 +10,7 @@
 </div>
 <h1>À la une</h1>
 <div class="heritage">
-    <img src="public/images/img_brassage_site_web/Posts_bieres/Heritage.jpg" alt="">
+    <img src="public\images\ange.png" alt="">
     <p>Günther a reçu un carnet de son héritage nordique. Dans celui-ci,
         il y trouve diverses potions permettant d’acquérir chaque aptitude des vikings.
         Voulant partager son savoir, il créa Elixir afin que chacun puisse retrouver
