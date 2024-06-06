@@ -12,7 +12,7 @@
             <li class="item">
                 <a href="fiche_produit.php?num=<?= $biere['id_produit']; ?>">
                 <h2 class="nombiere"><?php echo $biere["nom_produit"]; ?></h2>
-                <img src="public\images\img_brassage_site_web\Posts_bieres\<?php echo $biere["image"];?>">
+                <img class="photo"src="public\images\img_brassage_site_web\Posts_bieres\<?php echo $biere["image"];?>">
                 <h3 class="typebiere"><?php echo $biere["type"]; ?></h3>
                 <h3 class="pourcentage"><?php echo $biere["pourcentage_alcool"]; ?></h3>
                 <h3 class="prixbiere"><?php echo $biere["prix"]; ?></h3>                
