@@ -4,7 +4,7 @@
     gap: 10px; /* Espace entre les colonnes */
     padding: 10px;
     margin-top: 5%;
-    background-color: #1f1a03;
+   
     cursor: default;
 }
 
@@ -23,6 +23,7 @@
     padding-top: 4%;
     font-size: 40px;
     cursor: default;
+    color: white;
 }
 
 .nombiere{
@@ -84,4 +85,14 @@
 
 .photo:hover {
     transform: scale(1.1); /* Agrandit l'image à 110% */
+}
+
+.blanc{
+    background-color: white;
+    padding-top: 1%;
+    color: white;
+    cursor: default;
+}
+.main{
+    background: linear-gradient(#1f1a03, #4a4427);
 }
