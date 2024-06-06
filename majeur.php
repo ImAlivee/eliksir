@@ -7,7 +7,7 @@ include 'app/model/connexionBDD.php';
 if ($_GET['reponse'] == 'oui')
 {
     $_SESSION['majeur'] = true;
-    header('Location: accueil.php');
+    header('Location: index.php');
     exit;
 }
 
