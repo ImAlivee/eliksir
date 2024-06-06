@@ -33,7 +33,7 @@
             <p class="pourcentage"><?= $biere['pourcentage_alcool'] ?></p>
         </div>
         <div class="droite">
-            <p class="ingrédients"><?= $biere['ingredients'] ?></p>
+            <p class="ingredients"><?= $biere['ingredients'] ?></p>
         </div>     
 
         

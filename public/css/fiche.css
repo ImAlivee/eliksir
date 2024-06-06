@@ -41,10 +41,10 @@
     width: 20%;
 }
 
-.ingrédients, .storytelling{
+.ingredients p, .storytelling p{
     width: 70%;
 }
 
-.ingrédients{
+.ingredients{
     text-align: right;
 }
