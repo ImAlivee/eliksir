@@ -22,7 +22,7 @@
     </figure>
 </section>
 
-<section class="description">
+< class="description">
     <div class="text">
         <div class="gauche">
             <p class="storytelling"><?= $biere['description'] ?></p>
@@ -45,7 +45,7 @@
         <a href="ajouter_panier.php?id= <?php echo $biere["id_produit"]; ?>">Ajouter au panier</a>
     </div>
 
-<h1>Suggestions</h1>
+    <h1>Suggestions</h1>
 <h2>Vous pourriez aimer aussi</h2>
 <section class="suggestion">
     <?php foreach ($bieresAleatoires as $biere): ?>
@@ -55,10 +55,8 @@
                 alt="<?php echo isset($biere['nom']) ? $biere['nom'] : 'Nom '; ?>">
             <p class="nom"><?= isset($biere['nom_produit']) ? $biere['nom_produit'] : 'Nom' ?></p>
             <p class="type"><?= isset($biere['type']) ? $biere['type'] : 'Type inconnu' ?></p>
-            <p class="pourcentage"><?= isset($biere['pourcentage_alcool']) ? $biere['pourcentage_alcool'] : 'Pourcentage' ?>%</p>
+            <p class="pourcentage"><?= isset($biere['pourcentage_alcool']) ? $biere['pourcentage_alcool'] : 'Pourcentage' ?></p>
             <p class="prix"><?= isset($biere['prix']) ? $biere['prix'] : 'Prix inconnu' ?> €</p>
         </div>
     <?php endforeach; ?>
-</section>
-
 </section>
