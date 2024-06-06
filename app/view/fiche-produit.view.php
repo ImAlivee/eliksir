@@ -24,8 +24,9 @@
 
 <section class="description">
     <div class="text">
-        <div class="gauche"></div>
+        <div class="gauche">
             <p class="storytelling"><?= $biere['description'] ?></p>
+        </div>
         <div class="centre"> 
             <img id="biere" src="public\images\img_brassage_site_web\Posts_bieres\<?php echo $biere["image"];?>">
             <h1><?=$biere['nom_produit']?></h1>
