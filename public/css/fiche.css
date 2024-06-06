@@ -20,3 +20,15 @@
     padding: 1%;
 }
 
+.image{
+    text-align: center;
+}
+
+#biere{
+    margin: auto;
+    margin-top: -250px;
+    width: 40%;
+}
+#fond{
+    width: 100%;
+}
