@@ -13,6 +13,15 @@ h1 {
     margin:80px;
 }
 
+.ex{
+    font-size: 2.5em;
+    text-align: center;
+    color: #ececec;
+    margin: 20px 0;
+    font-family: Aldo;
+    margin:80px;
+}
+
 h2 {
     text-align: center;
     color: #f5deb3;
@@ -110,7 +119,6 @@ h2 {
 }
 
 .tous {
-    display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 2% 0;

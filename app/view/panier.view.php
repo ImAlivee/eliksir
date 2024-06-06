@@ -52,5 +52,5 @@
     }
     ?>
 </section>
-<a class="bouton_panier" href="produits.php">Poursuivre les achats</a>
-<a class="bouton_panier" href="checkout.php">Commander</a>
+<a class="bouton_panier" id="bouton_gauche" href="produits.php">Poursuivre les achats</a>
+<a class="bouton_panier" id="bouton_droit" href="checkout.php">Commander</a>
