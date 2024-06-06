@@ -3,8 +3,8 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 10px; /* Espace entre les colonnes */
     padding: 10px;
-    margin-top: 5%;
-   
+    margin-top: 7%;
+    
     cursor: default;
 }
 
@@ -33,11 +33,13 @@
     margin-bottom: 1%;
     color: white;
     cursor: default;
+   
+    transition: width 0.3s ease;
 }
 
 .prixbiere{
     text-align: center;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     color: white;
     cursor: default;
 }
@@ -46,7 +48,8 @@
     text-align: center;
     color: white;
     cursor: default;
-    padding-top: 3%;
+    padding-top: 2.8%;
+    margin-bottom: 2%;
 }
 
 .pourcentage{
@@ -63,18 +66,18 @@
     margin-right: auto;
     width: 26%;
     margin-bottom: 4%;
-    border-left: 2px solid #ffffff;
+    border: 2px solid #ffffff;
     border-radius: 10px;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
     padding-left: 2.75%;
     color: white;
-    transition: border 0.1s ease;
-    overflow: hidden;
+
 }
 
-.panier:hover::before {
-    width: 100%; /* La bordure s'étend sur toute la largeur au survol */
+.panier:hover{
+    background-color: white;
+    color: black;
 }
 
 
@@ -88,7 +91,11 @@
     transition: transform 0.3s ease;    
 }
 
+
+
+
 .item{
+    margin-bottom: 9%;
     
 }
 
@@ -105,4 +112,15 @@
 }
 .main{
     background: linear-gradient(#1f1a03, #4a4427);
+}
+
+.couleurfond{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ceb678;  
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    
 }
