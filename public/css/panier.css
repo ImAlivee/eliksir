@@ -25,6 +25,10 @@ main {
     margin-left: 3%;
 }
 
+#vide{
+    color: white;
+}
+
 #plus:hover {
     background-color: #c88a36;
     border-radius: 5px;
