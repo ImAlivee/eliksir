@@ -4,7 +4,7 @@ session_start();
 include 'app/model/connexionBDD.php';
 
 $page_title = 'Contact';
-$css = 'style1.css';
+$css = 'contact.css';
 
 // Génération et injection de la vue
 ob_start();
