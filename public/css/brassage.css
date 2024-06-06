@@ -1,4 +1,4 @@
-*{
+h1, .sommaire{
     background-color: #1f1a03;
 }
 
@@ -28,6 +28,10 @@ ul{
 }
 .droite{
     padding: 1%;
+}
+
+.gauche {
+    padding : 1%;
 }
 
 #bouton_panier{
