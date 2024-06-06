@@ -14,11 +14,12 @@
 <section class="suggestion">
     <?php foreach ($bieresAleatoires as $biere): ?>
         <div class="biere">
+            <a href="fiche_produit.php?num=<?= $biere['id_produit']; ?>">
             <img src="public/images/img_brassage_site_web/Posts_bieres/<?php echo isset($biere['image']) ? $biere['image'] : 'default.jpg'; ?>"
                 alt="<?php echo isset($biere['nom']) ? $biere['nom'] : 'Nom '; ?>">
             <p class="nom"><?= isset($biere['nom_produit']) ? $biere['nom_produit'] : 'Nom' ?></p>
             <p class="type"><?= isset($biere['type']) ? $biere['type'] : 'Type inconnu' ?></p>
-            <p class="pourcentage"><?= isset($biere['pourcentage']) ? $biere['pourcentage'] : 'Pourcentage' ?>%</p>
+            <p class="pourcentage"><?= isset($biere['pourcentage_alcool']) ? $biere['pourcentage_alcool'] : 'Pourcentage' ?></p>
             <p class="prix"><?= isset($biere['prix']) ? $biere['prix'] : 'Prix inconnu' ?> €</p>
         </div>
     <?php endforeach; ?>
