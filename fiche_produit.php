@@ -12,7 +12,7 @@ $pdo = getDatabaseConnection();
 
 if (empty($_GET['num']) || !ctype_digit($_GET['num']) || $_GET['num'] < 1) {
     $_SESSION['message'] = "L'identifiant de la bière n'est pas correct.";
-    header('Location: accueil.php');
+    header('Location: index.php');
     exit;
 }
 

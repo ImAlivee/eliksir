@@ -3,7 +3,7 @@
     <div class="banière">
     <?php
             if (isset($biere['image_fond'])) {
-                $photo = 'fond' . $biere['nom_produit'];
+                $photo = $biere['image_fond'];
             } else {
                 $photo = 'defaut.png';
             }
@@ -14,12 +14,12 @@
     <figure class="image">
         <?php
             if (isset($biere['image'])) {
-                $photo = $biere['nom_produit'];
+                $photo = $biere['image'];
             } else {
                 $photo = 'defaut.png';
             }
             ?>
-            <img src="public/images/biere/<?= $photo ?>" alt="photo de la bière <?= $biere['nom_produit'] ?>">
+            <img src="public/images/baniere/<?= $photo ?>" alt="photo de la bière <?= $biere['nom_produit'] ?>">
         </figure>
     </figure>
 </section>

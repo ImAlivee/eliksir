@@ -14,7 +14,7 @@
         
         <ul class="menu">
         <div class="logo">
-        <a href="accueil.php"><li><img src="public/images/logos/logo_eliksir_beige.png" alt="" href=""></li></a>
+        <a href="index.php"><li><img src="public/images/logos/logo_eliksir_beige.png" alt="" href=""></li></a>
         </div>
             <a href="produits.php"><li>Les produits</li></a>
             <a href="brassage.php"><li>Le brassage</li></a>
