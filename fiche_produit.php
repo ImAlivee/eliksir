@@ -8,7 +8,6 @@ if(!isset($_SESSION['majeur'])) {
     exit;
 } 
 // Récupération des données :
-include 'app/model/connexionBDD.php';
 $pdo = getDatabaseConnection();
 
 if (empty($_GET['num']) || !ctype_digit($_GET['num']) || $_GET['num'] < 1) {
@@ -18,7 +17,7 @@ if (empty($_GET['num']) || !ctype_digit($_GET['num']) || $_GET['num'] < 1) {
 }
 
 $numBeer = intval($_GET['num']);
-$biere = getBeer($numBeer,getDatabaseConnection());
+$biere = getBeer($numBeer,$pdo);
 
 
 $page_title = 'Bière - ' . $biere['nom_produit'];

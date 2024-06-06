@@ -7,7 +7,7 @@ if(!isset($_SESSION['majeur'])) {
 } 
 // Récupération des données :
 include 'app/model/connexionBDD.php';
-require_once 'app/model/fonctions.model.php';
+include 'app/model/fonctions.model.php';
 
 if(isset($_SESSION['message'])){
     $message = $_SESSION['message'];
@@ -15,7 +15,7 @@ if(isset($_SESSION['message'])){
 }
 
 $pdo = getDatabaseConnection();
-$ids = array_keys ($_SESSION['panier']);
+$ids = array_keys($_SESSION['panier']);
 $lines = getSpecificBeers($pdo, $ids);
 
 $page_title = 'Votre Panier';
