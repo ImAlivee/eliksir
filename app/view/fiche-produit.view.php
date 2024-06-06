@@ -18,18 +18,26 @@
                 $photo = 'defaut.png';
             }
             ?>
-            <img id="biere" src="public\images\img_brassage_site_web\Posts_bieres\<?php echo $biere["image"];?>">
         </figure>
     </figure>
 </section>
 
 <section class="description">
     <div class="text">
-        <h1><?=$biere['nom_produit']?></h1>
-        <p class="storytelling"><?= $biere['description'] ?></p>
-        <p class="ingrédients"><?= $biere['ingredients'] ?></p>
-        <p class="infos"><?= $biere['type'] ?></p>
-        <p class="pourcentage"><?= $biere['pourcentage_alcool'] ?></p>
+        <div class="gauche"></div>
+            <p class="storytelling"><?= $biere['description'] ?></p>
+        <div class="centre"> 
+            <img id="biere" src="public\images\img_brassage_site_web\Posts_bieres\<?php echo $biere["image"];?>">
+            <h1><?=$biere['nom_produit']?></h1>
+            <p class="infos"><?= $biere['type'] ?></p>
+            <p class="pourcentage"><?= $biere['pourcentage_alcool'] ?></p>
+        </div>
+        <div class="droite">
+            <p class="ingrédients"><?= $biere['ingredients'] ?></p>
+        </div>     
+
+        
+        
     </div>
     <div class="achat">
         <p class="prix">3,15€</p>
