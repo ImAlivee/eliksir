@@ -6,34 +6,24 @@
         en soi les qualités que voulaient transmettre ces ancêtres !</p>
 </div>
 
+<h1>Suggestions</h1>
+<h2>Vous pourriez aimer aussi</h2>
 <section class="suggestion">
-    <div class="resilience">
-        <img src="public\images\img_brassage_site_web\Posts_bieres\resilience.jpg" alt="">
-        <p>type de biere</p>
-        <p>Prix</p>
-        <p>Le nom</p>
-        <p>pourcentage</p>
-    </div>
-    <div class="sante">
-        <img src="public\images\img_brassage_site_web\Posts_bieres\sante.jpg" alt="">
-        <p>type de biere</p>
-        <p>Prix</p>
-        <p>Le nom</p>
-        <p>pourcentage</p>
-    </div>
-    <div class="seduction">
-        <img src="public\images\img_brassage_site_web\Posts_bieres\seduction.jpg" alt="">
-        <p>type de biere</p>
-        <p>Prix</p>
-        <p>Le nom</p>
-        <p>pourcentage</p>
-    </div>
+    <?php foreach ($bieresAleatoires as $biere): ?>
+        <div class="biere">
+            <img src="public/images/img_brassage_site_web/Posts_bieres/<?php echo isset($biere['image']) ? $biere['image'] : 'default.jpg'; ?>" alt="<?php echo isset($biere['nom']) ? $biere['nom'] : 'Nom '; ?>">
+            <p><?= isset($biere['nom_produit']) ? $biere['nom_produit'] : 'Nom' ?></p>
+            <p> <?= isset($biere['type']) ? $biere['type'] : 'Type inconnu' ?></p>
+            <p><?= isset($biere['pourcentage']) ? $biere['pourcentage'] : 'Pourcentage' ?>%</p>
+            <p><?= isset($biere['prix']) ? $biere['prix'] : 'Prix inconnu' ?> €</p>
+        </div>
+    <?php endforeach; ?>
 </section>
 
 <section class="tous">
     <div class="etape">
         <h1>Etape</h1>
-        <input class="bouton" type="button" value="En savoir plus">
+       <a href="http://localhost/eliksir/brassage.php"> <input class="bouton" type="button" value="En savoir plus"></a>">
     </div>
     <p class="pi">texte a description</p>
 </section>
@@ -42,8 +32,8 @@
 <section class="tout">
     <div class="nous">
         <p>texte a description</p>
-        <img src="public\images\photos_groupe\photo_groupe.jpg" alt="">
+        <img src="public/images/photos_groupe/photo_groupe.jpg" alt="">
         <p>texte a description</p>
     </div>
-    <input class="bouton2" type="button" value="En savoir plus">
+    <a href="http://localhost/eliksir/qui_somme_nous.php"><input class="bouton2" type="button" value="En savoir plus"></a>
 </section>
