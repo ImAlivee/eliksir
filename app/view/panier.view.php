@@ -58,10 +58,11 @@
 
 <div class="popup-overlay" id="popup-overlay"></div>
     <div class="popup" id="popup">
-        <h2>Merci d'avoir commander chez ELIKSIR !</h2>
-        <p></p>
-        <button onclick="confirmPurchase()">Oui</button>
-        <button onclick="hidePopup()">Non</button>
+        <form> </form>
+
+        <p>Merci d'avoir commander chez ELIKSIR !</p>
+        
+        <button onclick="hidePopup()">DE RIEN !!!</button>
 </div>
 
 <script>
@@ -75,8 +76,4 @@
             document.getElementById('popup').style.display = 'none';
         }
 
-        function confirmPurchase() {
-            // Rediriger vers la page de checkout
-            window.location.href = 'commander.php';
-        }
     </script>
