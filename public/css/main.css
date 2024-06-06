@@ -5,7 +5,19 @@
     box-sizing: border-box;
     list-style: none;
 }
+@font-face {
+    font-family: 'Aldo';
+    src: url('/public/fonts/Aldo PC.ttf') format('truetype');
+}
 
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('/public/fonts/Montserrat-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Noatun';
+    src: url('../fonts/Noatun v1.otf') format('opentype');
+}
 body {
     font-family: 'Montserrat', sans-serif;
     color: #333;

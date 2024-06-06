@@ -1,60 +1,95 @@
-.sommaire ul{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr ;
-}
-#titre{
-    grid-column: 1/4;
-    grid-row: 1/1;
-
-}
-.etapes ul li{
-    display: flex;
-    margin: 10%;
-}
-.etapes .gauche{
-    flex-direction: row-reverse;
-    padding: 1%;
-}
-.droite{
-    padding: 1%;
-}
-
-.image{
-    text-align: center;
-}
-
-#biere{
-    margin: auto;
-    margin-top: -250px;
-    width: 100%;
-}
-#fond{
-    width: 100%;
-}
-
-.text {
-    display : flex;
-}
-
-.gauche, .droite{
-    width: 20%;
-}
-
-.ingredients p, .storytelling p{
-    width: 70%;
-}
-
-.ingredients{
-    text-align: right;
+@font-face {
+    font-family: 'Noatun';
+    src: url('/public/fonts/Noatun v1.otf') format('opentype');
 }
 body {
     background: linear-gradient(#1f1a03, #4a4427);
     font-family: 'Montserrat', sans-serif;
     color: #f5f5f5;
+    margin: 0;
+    padding: 0;
 }
 
+h1, h2 {
+    text-align: center;
+    margin: 20px 0;
+}
 
+h1 {
+    font-size: 2.5em;
+    color: #ececec;
+    margin-top: 80px;
+}
+
+h2 {
+    color: #f5deb3;
+}
+
+.sommaire ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#titre {
+    grid-column: 1 / 4;
+    grid-row: 1 / 1;
+}
+
+.etapes ul li {
+    display: flex;
+    margin: 10%;
+}
+
+.etapes .gauche {
+    flex-direction: row-reverse;
+    padding: 1%;
+}
+
+.droite {
+    padding: 1%;
+}
+.titre_biere{
+    font-family: 'Noatun';
+}
+.image {
+    text-align: center;
+}
+
+#biere {
+    margin: auto;
+    margin-top: -250px;
+    height: 400px;
+}
+
+#fond {
+    width: 100%;
+}
+
+.text {
+    display: flex;
+}
+
+.gauche, .droite {
+    width: 20%;
+}
+
+.ingredients p, .storytelling p {
+    width: 70%;
+    background-color: #ceb678;
+    border-radius: 5px;
+}
+.infos{
+    color: #ceb678;
+}
+.pourcentage{
+    color:#ceb678;
+}
+.ingredients {
+    text-align: right;
+    background-color: #ceb678;
+    border-radius: 5px;
+}
 
 .suggestion {
     display: flex;
@@ -65,12 +100,22 @@ body {
     background-color: #ceb6782e;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+}
+.image-biere {
+    width: auto; /* Ajuste automatiquement la largeur pour maintenir les proportions */
+    height: 300px; /* Hauteur fixe */
+    margin-top: 20px; /* Espacement au-dessus de l'image */
+    display: block; /* Permet d'appliquer margin auto */
+    margin-left: auto; /* Centre l'image horizontalement */
+    margin-right: auto; /* Centre l'image horizontalement */
 }
 
 .biere {
     text-align: center;
     width: 20%;
     padding: 1%;
+    margin: 10px;
     background-color: #ceb678;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -82,31 +127,63 @@ body {
 }
 
 .suggestion img {
-    width: 80%;
+    width: 100%;
     border-radius: 10px;
+}
+
+.biere .nom, .biere .type, .biere .pourcentage, .biere .prix {
+    margin: 5px 0;
 }
 
 .biere .nom {
     font-size: 1.5em;
     font-weight: bold;
-    margin: 10px 0;
 }
 
-.biere .type {
+.biere .type, .biere .pourcentage {
     font-size: 1.2em;
     color: #4a4427;
-    margin: 5px 0;
-}
-
-.biere .pourcentage {
-    font-size: 1em;
-    color: #4a4427;
-    margin: 5px 0;
 }
 
 .biere .prix {
     font-size: 1.5em;
     color: #764b36;
     font-weight: bold;
-    margin: 10px 0;
 }
+
+.achat {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.achat .prix {
+    font-size: 2em;
+    color: #f5deb3;
+}
+
+.achat a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #764b36;
+    color: #f5f5f5;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.achat a:hover {
+    background-color: #4a4427;
+}
+.centre {
+    text-align: center;
+    width: 60%; /* Ajout d'une largeur pour centrer les éléments */
+    margin: auto; /* Ajout de marges automatiques pour centrer */
+}
+.gauche, .droite {
+    width: 20%;
+    background-color: #ceb678; /* Arrière-plan avec transparence */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 10px; /* Ajout de marge intérieure */
+}
+
