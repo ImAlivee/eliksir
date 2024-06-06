@@ -1,57 +1,166 @@
+body {
+    background: linear-gradient(#1f1a03, #4a4427);
+    font-family: 'Montserrat', sans-serif;
+    color: #f5f5f5;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #ececec;
+    margin: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    color: #f5deb3;
+    margin: 20px 0;
+}
+
+.titre {
+    font-size: 3em;
+    color: #ececec;
+}
+
 .heritage {
-    margin: 2% 0 0 ;
+    margin: 2% 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: solid;
     padding: 4%;
     background-color: #ceb678;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.heritage img{
+
+.heritage img {
     width: 50%;
-}
-
-.nous img {
-    width: 30%;
-    justify-content: center;
-}
-
-.suggestion {
-    margin-top: 2%;
-    display: flex;
-    align-items: center;
-    background-color: #ceb678;
-    border: solid;
-    justify-content: space-evenly;
-    padding: 1%;
+    border-radius: 10px;
 }
 
 .heritage p {
     margin-left: 2%;
-    display:block;
+    font-size: 1.2em;
+    line-height: 1.6;
 }
 
-.etape {
-    margin: 2% 0 0 ;
-    justify-content: space-around;
-    align-items: center;  
+.suggestion {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2%;
+    padding: 2%;
+    background-color: #ceb6782e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-    font-size: 300%; 
+
+.biere {
+    text-align: center;
+    width: 20%;
+    padding: 1%;
+    background-color: #ceb678;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+
+.biere:hover {
+    transform: translateY(-5px);
+}
+
+.suggestion img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.biere .nom {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.biere .type {
+    font-size: 1.2em;
+    color: #4a4427;
+    margin: 5px 0;
+}
+
+.biere .pourcentage {
+    font-size: 1em;
+    color: #4a4427;
+    margin: 5px 0;
+}
+
+.biere .prix {
+    font-size: 1.5em;
+    color: #764b36;
+    font-weight: bold;
+    margin: 10px 0;
 }
 
 .tous {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 2% 0;
+    flex-wrap: wrap; /* Ajout pour permettre le retour à la ligne */
 }
 
-.biere {
+/* Nouvelles règles CSS pour les éléments internes */
+.etape {
     text-align: center;
-    width: 20%;
+    flex-basis: 50%; /* Définir la moitié de la largeur de l'espace disponible */
+    margin: 0 10px; /* Ajout de marges pour l'espace entre les éléments */
+}
+/* Ajout des règles pour le bouton */
+.etape .bouton {
+    margin-top: 20px; /* Espacement entre le paragraphe et le bouton */
+}
+/* Ajout des règles pour les boutons */
+.bouton, .bouton2 {
+    background-color: #ceb678;
+    color: #1f1a03;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Ajout de marges pour espacer les boutons */
 }
 
-.suggestion img {
-    width: 80%;
+.bouton:hover, .bouton2:hover {
+    background-color: #b58a50;
+}
+
+.nous {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nous img {
+    width: 30%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.pi {
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: white;
+}
+
+.sto{
+    font-size: 1.2em;
+    color: white;
+    margin: 20px;
+}
+.tout {
+    text-align: center;
+    flex-basis: 50%; /* Définir la moitié de la largeur de l'espace disponible */
+    margin: 0 10px; /* Ajout de marges pour l'espace entre les éléments */
 }
