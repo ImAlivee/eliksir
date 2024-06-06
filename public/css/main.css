@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #333;
     background-color: #fff;
 }
@@ -15,6 +15,12 @@ body {
 a{
     text-decoration: none;
     color: black;
+}
+
+button{
+    background-color: #c88a36;
+    border-radius: 10px;
+    border: 0px;
 }
 
 /* Navigation styles */

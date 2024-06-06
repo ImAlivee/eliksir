@@ -3,30 +3,30 @@
     <div class="banière">
     <?php
             if (isset($biere['image_fond'])) {
-                $photo = 'fond' . $biere['nom_produit'];
+                $photo = $biere['image_fond'];
             } else {
                 $photo = 'defaut.png';
             }
             ?>
-            <img src="public/images/fond_biere/<?= $photo ?>" alt="photo de la bannière de la bière <?= $biere['nom_produit'] ?>">
-        <h1><?=$biere['nom_produit']?></h1>
+            <img id="fond" src="public/images/baniere/<?= $biere['image_fond'] ?>" alt="photo de la bannière de la bière <?= $biere['nom_produit'] ?>">
     </div>
     <figure class="image">
         <?php
             if (isset($biere['image'])) {
-                $photo = $biere['nom_produit'];
+                $photo = $biere['image'];
             } else {
                 $photo = 'defaut.png';
             }
             ?>
-            <img src="public/images/biere/<?= $photo ?>" alt="photo de la bière <?= $biere['nom_produit'] ?>">
+            <img id="biere" src="public\images\img_brassage_site_web\Posts_bieres\<?php echo $biere["image"];?>">
         </figure>
     </figure>
 </section>
 
 <section class="description">
     <div class="text">
-        <p class="storytelling"><?= $biere['storytelling'] ?></p>
+        <h1><?=$biere['nom_produit']?></h1>
+        <p class="storytelling"><?= $biere['description'] ?></p>
         <p class="ingrédients"><?= $biere['ingredients'] ?></p>
         <p class="infos"><?= $biere['type'] ?></p>
         <p class="pourcentage"><?= $biere['pourcentage_alcool'] ?></p>
