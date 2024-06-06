@@ -1,11 +1,9 @@
-.listebiere{
-    display: flex;
-    flex-wrap: wrap;
-    width: 20%;
-    flex: 1 0 33.33%; /* Permet à chaque élément de prendre un tiers de la ligne */
-    box-sizing: border-box; /* Inclut padding et border dans la taille totale de l'élément */
-    padding: 10px; /* Espacement entre les éléments */
-  }
+.liste-de-biere{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* Espace entre les colonnes */
+    padding: 10px;
+}
 
 
 
@@ -24,8 +22,9 @@
     cursor: default;
 }
 
-.panier{
-
+.nombiere{
+    text-align: center;
+    padding-bottom: 2%;
 }
 
 

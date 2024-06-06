@@ -26,7 +26,7 @@ $bieres = getInfo($pdo);
 
 
 $page_title = 'Produits';
-$css = 'style1.css';
+
 
 // Génération et injection de la vue
 ob_start();
