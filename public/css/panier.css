@@ -59,3 +59,8 @@ img{
 .sommaire img{
     height:160px;
 }
+
+h1{
+    font-family: 'Aldo';
+    font-size: 3.2em;
+}
