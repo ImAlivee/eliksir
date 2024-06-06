@@ -26,7 +26,8 @@
     ?>
     <div class="ligne2">
         <div class="enfant" >
-        <img  id="biere" src="public/images/img_brassage_site_web/Posts_bieres/<?php echo htmlspecialchars($produit['image']); ?>" alt="Produit">
+            <a href="fiche_produit.php?num=<?= $biere['id_produit']; ?>">
+            <img  id="biere" src="public/images/img_brassage_site_web/Posts_bieres/<?php echo htmlspecialchars($produit['image']); ?>" alt="Produit">
         <div class="infos">
             <p><?php echo htmlspecialchars($produit['nom_produit']); ?></p>
             <p><?php echo htmlspecialchars($produit['prix']); ?>€</p>
