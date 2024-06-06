@@ -6,7 +6,16 @@ main{
     display:flex;
     justify-content: space-around;
     text-align: center;
+    flex-wrap: nowrap;
 }
+.enfant:nth-of-type(3){
+    width:20%;
+}
+
+img{
+    width: 10%;
+} 
+
 
 .ligne2{
     display:flex;
@@ -14,13 +23,14 @@ main{
     text-align: center;
 }
 
+#quantite{
+    display: flex;
+    flex-direction: row;
+}
 .total{
     text-align: right;
 }
 
-.biere{
-    width: 100px;
-}
 .line1{
     border-bottom: 2px solid black;
 }
