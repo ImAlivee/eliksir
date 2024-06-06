@@ -36,3 +36,7 @@
 .text {
     display : flex;
 }
+
+.gauche, .droite{
+    width: 20%;
+}
