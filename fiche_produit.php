@@ -22,7 +22,7 @@ $biere = getBeer($numBeer,$pdo);
 
 $page_title = 'Bière - ' . $biere['nom_produit'];
 
-$css = 'style1.css';
+$css = 'fiche.css';
 
 // Génération et injection de la vue
 ob_start();
