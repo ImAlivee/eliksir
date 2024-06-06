@@ -18,7 +18,7 @@
                 alt="<?php echo isset($biere['nom']) ? $biere['nom'] : 'Nom '; ?>">
             <p class="nom"><?= isset($biere['nom_produit']) ? $biere['nom_produit'] : 'Nom' ?></p>
             <p class="type"><?= isset($biere['type']) ? $biere['type'] : 'Type inconnu' ?></p>
-            <p class="pourcentage"><?= isset($biere['pourcentage_alcool']) ? $biere['pourcentage_alcool'] : 'Pourcentage' ?>%</p>
+            <p class="pourcentage"><?= isset($biere['pourcentage_alcool']) ? $biere['pourcentage_alcool'] : 'Pourcentage' ?></p>
             <p class="prix"><?= isset($biere['prix']) ? $biere['prix'] : 'Prix inconnu' ?> €</p>
         </div>
     <?php endforeach; ?>
