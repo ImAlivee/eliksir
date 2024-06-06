@@ -21,3 +21,16 @@ function getInfo(PDO $pdo): array
 
     return $infos;
 }
+
+
+function updateCart($productId, $action) {
+        if ($action == 'plus') {
+            $_SESSION['panier'][$productId]++;  // Increment quantity
+        } elseif ($action == 'moins') {
+            if ($_SESSION['panier'][$productId] > 1) {
+                $_SESSION['panier'][$productId]--;  // Decrement quantity
+            } else {
+                unset($_SESSION['panier'][$productId]);  // Remove product if quantity is 0
+            }
+        }
+    }
