@@ -14,12 +14,12 @@
     <figure class="image">
         <?php
             if (isset($biere['image'])) {
-                $photo = $biere['nom_produit'];
+                $photo = $biere['image'];
             } else {
                 $photo = 'defaut.png';
             }
             ?>
-            <img src="public/images/biere/<?= $photo ?>" alt="photo de la bière <?= $biere['nom_produit'] ?>">
+            <img src="public/images/img_brassage_site_web/Posts_bieres/<?= $photo ?>" alt="photo de la bière <?= $biere['nom_produit'] ?>">
         </figure>
     </figure>
 </section>
