@@ -1,3 +1,10 @@
+*{
+    background-color: #1f1a03;
+}
+
+ul{
+    margin-right: 10px;
+}
 .sommaire ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -7,6 +14,9 @@
     grid-column: 1/4;
     grid-row: 1/1;
     color: aliceblue;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: bolder;
 }
 .etapes ul li{
     display: flex;
@@ -31,10 +41,6 @@
     height: 200px;
 }
 
-.etapes {
-    background-color:#4a4427;
-}
-
 .etapes h2 {
     font-family: 'Montserrat';
     text-transform: uppercase;
@@ -46,12 +52,8 @@
     color: rgb(209, 209, 209)
 }
 
-.sommaire {
-    background-color:#4a4427;
-}
-
 #titre{
-    font-size: 3rem;
+    font-size: 2rem;
 
 }
 
@@ -63,4 +65,5 @@ h1{
     text-align: center;
     padding : 50px;
     font-family: 'Aldo';
+    color: white;
 }
