@@ -9,6 +9,7 @@
 
 <ul class="liste-de-biere">
     <?php foreach ($bieres as $biere): ?>
+ 
             <li class="item">
                 <a href="fiche_produit.php?num=<?= $biere['id_produit']; ?>">
                 <h2 class="nombiere"><?php echo $biere["nom_produit"]; ?></h2>
@@ -18,6 +19,7 @@
                 <h3 class="prixbiere"><?php echo $biere["prix"]; ?></h3>                
                 <a class="panier" href="ajouter_panier.php?id= <?php echo $biere["id_produit"]; ?>" >Ajouter au panier</a>
             </li>
+
     <?php endforeach; ?>
 </ul>
     </section>
