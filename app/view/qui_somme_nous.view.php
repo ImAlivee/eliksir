@@ -18,7 +18,7 @@
                 <img src="<?= $member['image_hover']; ?>" alt="<?= $member['nom']; ?> Hover" class="hover-img">
             </div>
             <h2 class="personne"><?= $member['nom']; ?></h2>
-            <p><?= $member['description']; ?></p>
+            <p class="paragraphe"><?= $member['description']; ?></p>
         </div>
     <?php endforeach; ?>
 </section>
@@ -35,7 +35,7 @@
         <img id="alexis" src="public/images/alexis.png" alt="Alexis" class="storytelling-img">
     </div>
 
-    <p>
+    <p class="paragraphe">
         Günther, fasciné par les pouvoirs insoupçonnés de ces potions, décida de les partager avec le monde sous la forme
         de la marque de bière "Eliksir". Chaque bière de la gamme Eliksir était imprégnée de l'énergie et de l'esprit
         des Vikings, incarnant une qualité distincte grâce aux ingrédients spécifiques et à la symbolique des runes associées. La

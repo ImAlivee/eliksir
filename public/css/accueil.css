@@ -164,3 +164,18 @@ h2 {
     flex-basis: 50%; /* Définir la moitié de la largeur de l'espace disponible */
     margin: 0 10px; /* Ajout de marges pour l'espace entre les éléments */
 }
+/* Votre CSS actuel ici */
+
+.videos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2% 0;
+    flex-wrap: wrap; /* Ajout pour permettre le retour à la ligne */
+}
+
+.videos iframe {
+    width: 45%; /* Largeur des vidéos */
+    height: 300px; /* Hauteur des vidéos */
+    margin-bottom: 20px; /* Espacement entre les vidéos */
+}
