@@ -13,10 +13,10 @@
                 <a href="fiche_produit.php?num=<?= $biere['id_produit']; ?>">
                 <h2 class="nombiere"><?php echo $biere["nom_produit"]; ?></h2>
                 <img src="public\images\img_brassage_site_web\Posts_bieres\<?php echo $biere["image"];?>">
-                <h3><?php echo $biere["prix"]; ?></h3>
-                <h3><?php echo $biere["type"]; ?></h3>
-                <h3><?php echo $biere["pourcentage_alcool"]; ?></h3>
-                <a href="ajouter_panier.php?id= <?php echo $biere["id_produit"]; ?>">Ajouter au panier</a>
+                <h3 class="typebiere"><?php echo $biere["type"]; ?></h3>
+                <h3 class="pourcentage"><?php echo $biere["pourcentage_alcool"]; ?></h3>
+                <h3 class="prixbiere"><?php echo $biere["prix"]; ?></h3>                
+                <a class="panier" href="ajouter_panier.php?id= <?php echo $biere["id_produit"]; ?>" >Ajouter au panier</a>
             </li>
     <?php endforeach; ?>
 </ul>

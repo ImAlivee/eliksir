@@ -3,6 +3,8 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 10px; /* Espace entre les colonnes */
     padding: 10px;
+    margin-top: 5%;
+    background-color: #1f1a03;
 }
 
 
@@ -25,6 +27,40 @@
 .nombiere{
     text-align: center;
     padding-bottom: 2%;
+    margin-bottom: 1%;
+    color: white;
+}
+
+.prixbiere{
+    text-align: center;
+    margin-bottom: 2%;
+    color: white;
+}
+
+.typebiere{
+    text-align: center;
+    color: white;
+}
+
+.pourcentage{
+    text-align: center;
+    margin-bottom: 1%;
+    color: white;
+}
+
+.panier{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 26%;
+    margin-bottom: 4%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 2.75%;
+    color: white;
 }
 
 
