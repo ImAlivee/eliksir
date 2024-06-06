@@ -25,13 +25,19 @@
                 $totalPanier += $prixTotalProduit;
     ?>
     <div class="ligne2">
-        <img class="enfant" id="biere" src="public/images/img_brassage_site_web/Posts_bieres/<?php echo htmlspecialchars($produit['image']); ?>" alt="Produit">
-        <p class="enfant"><?php echo htmlspecialchars($produit['nom_produit']); ?></p>
+        <div class="enfant" >
+        <img  id="biere" src="public/images/img_brassage_site_web/Posts_bieres/<?php echo htmlspecialchars($produit['image']); ?>" alt="Produit">
+        <div class="infos">
+            <p><?php echo htmlspecialchars($produit['nom_produit']); ?></p>
+            <p><?php echo htmlspecialchars($produit['prix']); ?>€</p>
+            <p><?php echo htmlspecialchars($produit['type']);?><br> <?php echo htmlspecialchars($produit['pourcentage_alcool']); ?></p>
+        </div>
+        </div>
         <div id="quantite" class="enfant">
             <!--<img src="public\images\panier\plus.png" alt="ajouter" class="modifie">-->
-            <a>+</a>
-            <p><?php echo $quantite; ?></p>
-            <a>-</a>
+            <a href="" id="plus">+</a>
+            <p id=""><?php echo $quantite; ?></p>
+            <a href="" id="moins">-</a>
             <!--<img src="public\images\panier\moins.png" alt="retirer" class="modifie">-->
         </div>
         <p class="enfant" id="prix"><?php echo $prixTotalProduit;?> €</p>
