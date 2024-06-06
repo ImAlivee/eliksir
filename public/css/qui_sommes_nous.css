@@ -1,13 +1,21 @@
+/* Reset and basic styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
 /* Couleur de fond du corps */
 body {
-    background-color: #ddd8bd;
+    background: linear-gradient(#1f1a03, #4a4427);
     font-family: 'public/Aldo PC.ttf', sans-serif;
+    color: #fff; /* Couleur du texte */
 }
 
 /* Style général des titres */
 .titre {
-    font-family: 'Aldo';
-    color: #c88a36;
+    color: #ceb678; /* Couleur du titre */
     text-align: center;
     margin: 20px;
     font-size: 40px;
@@ -20,11 +28,21 @@ body {
     max-width: 100%;
     height: auto;
 }
-
+/* Style des paragraphes de storytelling */
+.storytelling p.paragraphe {
+    background-color: #ceb678; /* Couleur de fond */
+    padding: 20px; /* Ajouter un espacement intérieur */
+    margin-bottom: 20px; /* Ajouter un espacement en bas */
+}
 /* Style du paragraphe d'introduction */
 .paragraphe {
     font-family: 'Aldo';
-    margin: 10px;
+    margin: 0 auto;
+    max-width: 800px; /* Définir la largeur maximale */
+    text-align: justify;
+    background-color: #ceb678; /* Couleur de fond */
+    padding: 20px; /* Ajouter un espacement intérieur */
+    margin-bottom: 20px; /* Ajouter un espacement en bas */
 }
 
 /* Styles de la section de l'équipe */
@@ -33,7 +51,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
 }
 
 .member {
@@ -78,17 +96,23 @@ body {
     opacity: 0;
 }
 
+/* Style des titres des personnes */
 .personne {
     margin-top: 10px;
     font-size: 1.2em;
     color: #333;
     font-size: 1em;
+    background-color: #ceb678; /* Couleur de fond */
+    padding: 10px; /* Ajouter un espacement intérieur */
+    margin-bottom: 10px; /* Ajouter un espacement en bas */
 }
 
-#alexis, #ange{
+
+#alexis, #ange {
     height: 300px;
 }
-.image-alexis-ange{
+
+.image-alexis-ange {
     display: flex;
     justify-content: center;
     gap: 20px; /* Ajustez l'espace selon vos besoins */
