@@ -121,6 +121,7 @@ h2 {
 .tous {
     justify-content: space-around;
     align-items: center;
+    text-align : center;
     margin: 2% 0;
     flex-wrap: wrap; /* Ajout pour permettre le retour à la ligne */
 }
