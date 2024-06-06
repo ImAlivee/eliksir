@@ -52,5 +52,31 @@
     }
     ?>
 </section>
-<a class="bouton_panier" id="bouton_gauche" href="produits.php">Poursuivre les achats</a>
-<a class="bouton_panier" id="bouton_droit" href="checkout.php">Commander</a>
+
+<button class="bouton_panier" onclick="window.location.href='produits.php'">Poursuivre les achats</button>
+<button class="bouton_panier" onclick="showPopup()">Commander</button>
+
+<div class="popup-overlay" id="popup-overlay"></div>
+    <div class="popup" id="popup">
+        <h2>Merci d'avoir commander chez ELIKSIR !</h2>
+        <p></p>
+        <button onclick="confirmPurchase()">Oui</button>
+        <button onclick="hidePopup()">Non</button>
+</div>
+
+<script>
+        function showPopup() {
+            document.getElementById('popup-overlay').style.display = 'block';
+            document.getElementById('popup').style.display = 'block';
+        }
+
+        function hidePopup() {
+            document.getElementById('popup-overlay').style.display = 'none';
+            document.getElementById('popup').style.display = 'none';
+        }
+
+        function confirmPurchase() {
+            // Rediriger vers la page de checkout
+            window.location.href = 'commander.php';
+        }
+    </script>
