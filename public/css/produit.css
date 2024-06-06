@@ -63,13 +63,22 @@
     margin-right: auto;
     width: 26%;
     margin-bottom: 4%;
-    border: 1px solid #ddd;
+    border-left: 2px solid #ffffff;
     border-radius: 10px;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
     padding-left: 2.75%;
     color: white;
+    transition: border 0.1s ease;
+    overflow: hidden;
 }
+
+.panier:hover::before {
+    width: 100%; /* La bordure s'étend sur toute la largeur au survol */
+}
+
+
+
 
 .photo{
     width: 60%;
