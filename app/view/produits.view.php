@@ -17,7 +17,7 @@
                 <img class="photo"src="public\images\img_brassage_site_web\Posts_bieres\<?php echo $biere["image"];?>">
                 <h3 class="typebiere"><?php echo $biere["type"]; ?></h3>
                 <h3 class="pourcentage"><?php echo $biere["pourcentage_alcool"]; ?></h3>
-                <h3 class="prixbiere"><?php echo $biere["prix"]; ?></h3>                
+                <h3 class="prixbiere"><?php echo $biere["prix"]; ?>€</h3>                
                 <a class="panier" href="ajouter_panier.php?id= <?php echo $biere["id_produit"]; ?>" >Ajouter au panier</a>
             </li>
 

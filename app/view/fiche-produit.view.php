@@ -40,7 +40,7 @@
         </div>
     </div>
     <div class="achat">
-        <p class="prix">3,15€</p>
+        <p class="prix"><?= $biere["prix"]; ?>€</p>
         <a href="ajouter_panier.php?id=<?= $biere["id_produit"]; ?>">Ajouter au panier</a>
     </div>
 </section>
