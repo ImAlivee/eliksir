@@ -36,7 +36,7 @@
 
 <section class="tous">
     <div class="etape">
-        <h1>Étape du brassage</h1>
+        <h1 class="ex">Étape du brassage</h1>
         <p class="pi">Pour plus d'explications sur les différentes étapes du brassage réalisés par les GB, veuillez cliquer sur le bouton !</p>
     </div>
     <a href="brassage.php"><input class="bouton" type="button" value="En savoir plus"></a>

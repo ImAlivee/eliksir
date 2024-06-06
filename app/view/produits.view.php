@@ -1,5 +1,5 @@
 <div class="main">
-    <img  class="photodebut" src="public/images/logos/logo_eliskir_v3_blanc.png" >
+    <img  class="photodebut" src="public\images\logos\logo_eliksir_v3_blanc.png" >
 
 <div>
     <h2 class="titrestyle">Tous nos produits</h2>
