@@ -9,6 +9,7 @@ h1 {
     text-align: center;
     color: #ececec;
     margin: 20px 0;
+    font-family: Aldo;
 }
 
 h2 {
@@ -28,7 +29,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     padding: 4%;
-    background-color: #ceb678;
+    background-color: #ceb6782e;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -36,12 +37,18 @@ h2 {
 .heritage img {
     width: 50%;
     border-radius: 10px;
+    border: solid 10px;
+    border-color: #ceb678;
 }
 
 .heritage p {
     margin-left: 2%;
     font-size: 1.2em;
     line-height: 1.6;
+    background-color: #ceb678;
+    border-radius: 10px;
+    font-family: Montserrat;
+    text-align: center;
 }
 
 .suggestion {
