@@ -25,7 +25,7 @@
                 $totalPanier += $prixTotalProduit;
     ?>
     <div class="ligne2">
-        <div class="enfant" >
+        <div class="enfant" id="infos">
             <a href="fiche_produit.php?num=<?= $produit['id_produit']; ?>">
                 <img id="biere" src="public/images/img_brassage_site_web/Posts_bieres/<?php echo htmlspecialchars($produit['image']); ?>" alt="Produit">
             </a>
@@ -37,7 +37,7 @@
         </div>
         <div id="quantite" class="enfant">
             <a href="update_panier.php?action=plus&id=<?php echo $produit['id_produit']; ?>" id="plus">+</a>
-            <p id=""><?php echo $quantite; ?></p>
+            <p id="chiffre"><?php echo $quantite; ?></p>
             <a href="update_panier.php?action=moins&id=<?php echo $produit['id_produit']; ?>" id="moins">-</a>
         </div>
         <p class="enfant" id="prix"><?php echo $prixTotalProduit;?> €</p>
@@ -52,5 +52,5 @@
     }
     ?>
 </section>
-<button onclick="window.location.href='produits.php'">Poursuivre les achats</button>
-<button onclick="window.location.href='checkout.php'">Commander</button>
+<a class="bouton_panier" href="produits.php">Poursuivre les achats</a>
+<a class="bouton_panier" href="checkout.php">Commander</a>
