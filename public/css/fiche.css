@@ -21,15 +21,14 @@
 }
 
 .image{
-    margin: auto;
-}
-
-#fond{
-    position: relative;
-    z-index: 10;
+    text-align: center;
 }
 
 #biere{
-    position: absolute;
-    z-index: 20;
+    margin: auto;
+    margin-top: -250px;
+    width: 40%;
+}
+#fond{
+    width: 100%;
 }
