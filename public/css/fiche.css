@@ -27,7 +27,7 @@
 #biere{
     margin: auto;
     margin-top: -250px;
-    width: 40%;
+    width: 200%;
 }
 #fond{
     width: 100%;
@@ -39,4 +39,12 @@
 
 .gauche, .droite{
     width: 20%;
+}
+
+.ingrédients, .storytelling{
+    width: 70%;
+}
+
+.ingrédients{
+    text-align: right;
 }
