@@ -1,66 +1,119 @@
-body{
-    margin: 2%;
+main {
+    padding: 2%;
+    background-color: #1f1a03;
 }
 
-.ligne1{
-    display:flex;
+.ligne1 {
+    display: flex;
     justify-content: space-around;
     text-align: center;
     flex-wrap: nowrap;
     margin: 1%;
-}
-.enfant:nth-of-type(3){
-    width:20%;
+    color: white;
 }
 
-.info{
-    display:flex;
-}
- 
-#plus, #moins{
-    font-size: 3em;
-}
 
-img{
-    width: 100%;
-    margin-right: 5%;
-} 
-
-.enfant:nth-of-type(1){
+#infos {
     display: flex;
-    flex-basis: 14%;
+    justify-content: space-between;
     align-items: center;
 }
 
-.ligne2{
-    display:flex;
-    justify-content: space-around;
+.infos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+#plus:hover {
+    background-color: #c88a36;
+    border-radius: 5px;
+}
+
+#moins:hover {
+    background-color: #c88a36;
+    border-radius: 5px;
+}
+
+#chiffre {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.ligne2 img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.ligne2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
     text-align: left;
     align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    background-color: #ceb678;
+    padding: 2%;
+    margin: 1%;
+    border-radius: 20px;
+
 }
 
-#quantite{
+p {
+    font-family: 'Aldo';
+    font-size: 2em;
+    color: #452516;
+}
+
+#quantite {
+
     display: flex;
     flex-direction: row;
-}
-.total{
-    text-align: right;
+
 }
 
-.line1{
+.total {
+    text-align: right;
+    color: white;
+}
+
+.line1 {
     border-bottom: 2px solid black;
 }
-#logo{
+
+#logo {
     height: 70px;
 }
-#bouton_panier{
-    height: 166px;
-}
-.sommaire img{
-    height:160px;
+
+.sommaire img {
+    height: 160px;
 }
 
-h1{
+h1 {
     font-family: 'Aldo';
     font-size: 3.2em;
+    color: white;
+}
+
+.bouton_panier {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #452516;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ceb678;
+    /* Green color */
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+.bouton_panier:hover {
+    background-color: #c88a36;
+    border: 2px solid #c88a36;
 }
