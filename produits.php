@@ -21,12 +21,12 @@ $pdo = getDatabaseConnection();
 include 'app/model/fonctions.model.php';
 $bieres = getInfo($pdo);
 
-$ids = array_keys ($_SESSION['panier']);
-$lines = getSpecificBeers($pdo, $ids);
+//$ids = array_keys ($_SESSION['panier']);
+//$lines = getSpecificBeers($pdo, $ids);
 
 
 $page_title = 'Produits';
-$css = 'style1.css';
+
 
 // Génération et injection de la vue
 ob_start();

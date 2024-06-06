@@ -1,0 +1,70 @@
+/* Style de base pour le formulaire */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Style des groupes de formulaire */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Style des labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style des inputs */
+.form-control,
+.input-radio,
+.input-textarea,
+#dropdown {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style spécifique pour les radios */
+.input-radio {
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Style du textarea */
+.input-textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Style du bouton de soumission */
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style des paragraphes */
+.form-group p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+main{
+    background: linear-gradient(#1f1a03, #4a4427);
+}
