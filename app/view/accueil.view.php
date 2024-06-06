@@ -1,10 +1,14 @@
-<h1 class="titre">À la une</h1>
+<h1 class="titre">Accueil</h1>
 
-<h1>Vidéos</h1>
+<h1>Nos Vidéos</h1>
 <div class="videos">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/kxOFqVVKtsw" frameborder="0" allowfullscreen></iframe>
+<video width="560" height="315" controls>
+    <source src="public/videos/Publicité Eliksir.mp4" type="video/mp4">
+    Votre navigateur ne supporte pas la lecture de vidéos.
+</video>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/jxR9PJA_xfI?si=WwbJRWA2OlYCVIN7" frameborder="0" allowfullscreen></iframe>
 </div>
+<h1>À la une</h1>
 <div class="heritage">
     <img src="public/images/img_brassage_site_web/Posts_bieres/Heritage.jpg" alt="">
     <p>Günther a reçu un carnet de son héritage nordique. Dans celui-ci,
