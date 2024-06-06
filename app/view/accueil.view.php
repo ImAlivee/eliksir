@@ -14,6 +14,7 @@
 <section class="suggestion">
     <?php foreach ($bieresAleatoires as $biere): ?>
         <div class="biere">
+            <a href="fiche_produit.php?num=<?= $biere['id_produit']; ?>">
             <img src="public/images/img_brassage_site_web/Posts_bieres/<?php echo isset($biere['image']) ? $biere['image'] : 'default.jpg'; ?>"
                 alt="<?php echo isset($biere['nom']) ? $biere['nom'] : 'Nom '; ?>">
             <p class="nom"><?= isset($biere['nom_produit']) ? $biere['nom_produit'] : 'Nom' ?></p>
