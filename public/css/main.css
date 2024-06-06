@@ -200,6 +200,7 @@ footer {
     color: white;
     text-decoration: none;
     transition: color 0.3s;
+    font-family: montserrat extrabold;
 }
 
 .sections ul li a:hover {
