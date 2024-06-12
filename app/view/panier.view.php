@@ -45,6 +45,7 @@
     <?php endforeach; ?>
     <h2 class="total">Total du panier</h2>
     <p class="total"><?php echo $totalPanier; ?> €</p>
+    
     <?php 
         } catch (PDOException $e) {
             echo "Erreur lors de l'exécution de la requête : " . $e->getMessage();
@@ -65,7 +66,7 @@
         <button onclick="hidePopup()">DE RIEN !!!</button>
 </div>
 
-<script>
+<!--<script>
         function showPopup() {
             document.getElementById('popup-overlay').style.display = 'block';
             document.getElementById('popup').style.display = 'block';
@@ -76,4 +77,4 @@
             document.getElementById('popup').style.display = 'none';
         }
 
-    </script>
+    </script> -->

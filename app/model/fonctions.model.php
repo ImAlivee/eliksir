@@ -2,7 +2,7 @@
 
 function getSpecificBeers(PDO $pdo, $ids) {
     if (empty($ids)) {
-        return [];
+        return ["il n'y a pas de produits"];
     }
     
     $list = join(',', array_fill(0, count($ids), '?'));
