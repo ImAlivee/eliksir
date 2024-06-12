@@ -16,7 +16,6 @@ if(isset($_SESSION['message'])){
 
 $pdo = getDatabaseConnection();
 $ids = array_keys($_SESSION['panier']);
-$lines = getSpecificBeers($pdo, $ids);
 
 $page_title = 'Votre Panier';
 $css = 'panier.css';
