@@ -21,9 +21,6 @@ $pdo = getDatabaseConnection();
 include 'app/model/fonctions.model.php';
 $bieres = getInfo($pdo);
 
-//$ids = array_keys ($_SESSION['panier']);
-//$lines = getSpecificBeers($pdo, $ids);
-
 
 $page_title = 'Produits';
 

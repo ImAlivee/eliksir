@@ -16,10 +16,10 @@ if(isset($_SESSION['message'])){
 
 $pdo = getDatabaseConnection();
 $ids = array_keys($_SESSION['panier']);
-$lines = getSpecificBeers($pdo, $ids);
 
 $page_title = 'Votre Panier';
 $css = 'panier.css';
+$js = 'fonctions.js';
 
 // Génération et injection de la vue
 ob_start();

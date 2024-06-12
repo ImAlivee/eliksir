@@ -12,7 +12,6 @@ if (!isset($_SESSION['panier'])) {
     $_SESSION['panier'] = array();
 }
 
-// Handle cart actions
 if (isset($_GET['action']) && isset($_GET['id'])) {
     $productId = intval($_GET['id']);
     if ($_GET['action'] == 'plus') {
@@ -30,7 +29,7 @@ if (isset($_GET['action']) && isset($_GET['id'])) {
             }
         }
     }
-    header('Location: panier.php'); // Redirect back to the cart page
+    header('Location: panier.php');
     exit();
 }
 ?>

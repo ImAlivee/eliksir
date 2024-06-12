@@ -31,10 +31,10 @@ if (isset($_GET['id'])) {
     }
 
     if (!isset($_SESSION['panier'][$id])) {
-        $_SESSION['panier'][$id] = 1;  // Initialiser la quantité à 1 si le produit n'existe pas dans le panier
+        $_SESSION['panier'][$id] = 1;
     } else {
-        $_SESSION['panier'][$id]++;  // Incrémenter la quantité si le produit existe déjà dans le panier
+        $_SESSION['panier'][$id]++;
     }
-    header("location:produits.php");  // Redirect after adding to the cart
+    header("location:produits.php");
 }
 ?>
